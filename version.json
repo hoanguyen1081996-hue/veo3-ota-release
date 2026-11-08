@@ -1,12 +1,12 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_160002",
-  "display_version": "v4.0.3 (Build 08-11-2026 16h00)",
-  "released_at": "2026-11-08 16:00:02",
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e04e68134ea9500282e12edaee2ad733c274abba/veo3_patch.bin",
-  "patch_sha256": "f314536a6733d0efcf3a1f7c684390bcf91ebc4608a2c7e37d992949cfe530cf",
-  "zip_sha256": "2ddf685511103598e678db80f45398fb787038f5594752003fa7465a5cfdaf79",
-  "patch_size_bytes": 653549,
+  "build_id": "20261108_171854",
+  "display_version": "v4.0.3 (Build 08-11-2026 17h18)",
+  "released_at": "2026-11-08 17:18:54",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/6c20d1551da494f78889b99830750dc0f798767e/veo3_patch.bin",
+  "patch_sha256": "ef3aa09fb0cd1c62c3c4292a6e84772a1224de7548e37499879d09aab2e3788a",
+  "zip_sha256": "74a5a4fbcb2680a14ccc84630f878bc7dabae8414c1385ae152e12fb8c12916a",
+  "patch_size_bytes": 655199,
   "files_count": 49,
-  "changelog": "Triet tieu 100% loi SCOTTY_UPLOAD_IMG1_FAILED khi chay da luong: khoa IPv4 (CurlOpt.IPRESOLVE: 1), nen anh JPEG ~45KB, dieu phoi Semaphore(2) + HTTP/1.1 retry cho Google Scotty Upload"
+  "changelog": "Fix 100% vong lap integrity_check_failed Muse AI (ban giao tu dong sang Veo3 NanoAI), chong Muse om hang cho (idle_muse_w + 2) va mo khoa toc do Master MC Serverless (pacing 8s, Scotty Semaphore 4)"
 }
