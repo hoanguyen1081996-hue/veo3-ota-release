@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_183104",
-  "display_version": "v4.0.3 (Build 08-11-2026 18h31)",
-  "released_at": "2026-11-08 18:31:04",
+  "build_id": "20261108_215520",
+  "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
+  "released_at": "2026-11-08 21:55:20",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/2d019d096654ee413c4598d24c915fefc504df44/veo3_patch.bin",
-  "patch_sha256": "365ff32e164f0df7671f4da715f1687653d200c5e6c8d495f174576690d5d01f",
-  "zip_sha256": "acb7d17c1c3e65e9462c286b8f1ce7198129682984b2e22108c252060a38b71e",
-  "patch_size_bytes": 656946,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/22332c3dbdfd9817d8f09182349bfc630399b65e/veo3_patch.bin",
+  "patch_sha256": "b11ee5401d0f51736f24f73461289b0046f934e5f2fc07dc3f39817a8913a00d",
+  "zip_sha256": "034f41866afe0d562ceabb2de4d91d35e875eae287c74909a13b6ecbd4f9220f",
+  "patch_size_bytes": 659415,
   "files_count": 49,
-  "changelog": "Fix triet de loi xuat Excel tren ban Build 7h57 (tu dong xuat toan bo video da hoan thanh khi bi danh dau nham Da xuat do chuyen file .mp4, bo sung DONE_ALL, loc ky tu XML loi openpyxl)",
+  "changelog": "Fix MISSING_SNLM0E_NOT_LOGGED_IN, per-port CDP WebSocket lock preventing Inspector.detached F5 reloads on Gemini & Muse AI, and full 36-profile GPM path mapping",
   "release_history": [
+    {
+      "build_id": "20261108_215520",
+      "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
+      "released_at": "2026-11-08 21:55:20",
+      "changelog": "Fix MISSING_SNLM0E_NOT_LOGGED_IN, per-port CDP WebSocket lock preventing Inspector.detached F5 reloads on Gemini & Muse AI, and full 36-profile GPM path mapping"
+    },
     {
       "build_id": "20261108_183104",
       "display_version": "v4.0.3 (Build 08-11-2026 18h31)",
