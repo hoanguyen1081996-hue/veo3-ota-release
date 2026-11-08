@@ -1,12 +1,12 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_004324",
-  "display_version": "v4.0.3 (Build 08-11-2026 00h43)",
-  "released_at": "2026-11-08 00:43:24",
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/53ad38c7cce9bb2c1e99397d78785407ee1f6812/veo3_patch.bin",
-  "patch_sha256": "0d6469d6c6f409489b1aae8b65e1612e19c6b3503da15a9d834bff05d67f43e0",
-  "zip_sha256": "8b6cc545e8cc86af750a91fcd2033b6fdd1e88029e87ee1772860e5b38c9d4ad",
-  "patch_size_bytes": 652733,
+  "build_id": "20261108_124606",
+  "display_version": "v4.0.3 (Build 08-11-2026 12h46)",
+  "released_at": "2026-11-08 12:46:06",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/82e951b2af64395e352796b5b8121d1f62372da7/veo3_patch.bin",
+  "patch_sha256": "310eb3de511182779b469b04e9262c211ccc08a9b67f4de611975817d8f0e30d",
+  "zip_sha256": "22953b61e72d3f038b94ae08e3a2cd8b6adb2f5ac00580302c2629ec9979350c",
+  "patch_size_bytes": 652321,
   "files_count": 49,
-  "changelog": "Bản chuẩn thương mại v4.0.3: Tích hợp Cập nhật tự động 1-Click OTA, chống sập tab Out of Memory, khóa 100% Pure HTTP API & sửa 4 lỗi Xuất Excel."
+  "changelog": "Tang toi da toc do & thong luong tao video qua ca NanoAPI V3 (Flow Veo3) va Muse AI: go khoa cung 2-3 luong/tai khoan, xoa 16s cho tai video, giam chu ky poll/dispatch, mo 2 luong/Chrome Muse mac dinh"
 }
