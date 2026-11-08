@@ -1,12 +1,12 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_124606",
-  "display_version": "v4.0.3 (Build 08-11-2026 12h46)",
-  "released_at": "2026-11-08 12:46:06",
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/82e951b2af64395e352796b5b8121d1f62372da7/veo3_patch.bin",
-  "patch_sha256": "310eb3de511182779b469b04e9262c211ccc08a9b67f4de611975817d8f0e30d",
-  "zip_sha256": "22953b61e72d3f038b94ae08e3a2cd8b6adb2f5ac00580302c2629ec9979350c",
-  "patch_size_bytes": 652321,
+  "build_id": "20261108_160002",
+  "display_version": "v4.0.3 (Build 08-11-2026 16h00)",
+  "released_at": "2026-11-08 16:00:02",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e04e68134ea9500282e12edaee2ad733c274abba/veo3_patch.bin",
+  "patch_sha256": "f314536a6733d0efcf3a1f7c684390bcf91ebc4608a2c7e37d992949cfe530cf",
+  "zip_sha256": "2ddf685511103598e678db80f45398fb787038f5594752003fa7465a5cfdaf79",
+  "patch_size_bytes": 653549,
   "files_count": 49,
-  "changelog": "Tang toi da toc do & thong luong tao video qua ca NanoAPI V3 (Flow Veo3) va Muse AI: go khoa cung 2-3 luong/tai khoan, xoa 16s cho tai video, giam chu ky poll/dispatch, mo 2 luong/Chrome Muse mac dinh"
+  "changelog": "Triet tieu 100% loi SCOTTY_UPLOAD_IMG1_FAILED khi chay da luong: khoa IPv4 (CurlOpt.IPRESOLVE: 1), nen anh JPEG ~45KB, dieu phoi Semaphore(2) + HTTP/1.1 retry cho Google Scotty Upload"
 }
