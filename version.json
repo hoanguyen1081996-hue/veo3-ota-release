@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261109_004228",
-  "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
-  "released_at": "2026-11-09 00:42:28",
+  "build_id": "20261109_004404",
+  "display_version": "v4.0.3 (Build 09-11-2026 00h44)",
+  "released_at": "2026-11-09 00:44:04",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/fdcfdc728e82b30db6634128553fb51002b2f2af/veo3_patch.bin",
-  "patch_sha256": "d4b8f7237d29566a3297c09e7738d026d361f0226f6012a40d604bcf0b91ed51",
-  "zip_sha256": "0ae82e63c6dbbb996e04f44542cfb831b12d8add635b279b37e590d1ad523448",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/6db7a6c5ef60d9e2cc5df016c9e1d4c778f24c55/veo3_patch.bin",
+  "patch_sha256": "6653bed3c3b7a2d686dcac92129bc7319bb5c1cf4c6671e1a33f1803f20e549f",
+  "zip_sha256": "f4274995d31480e9a1c450d379de6d35291380f6687aec5158fcd0fa918138ee",
   "patch_size_bytes": 661885,
   "files_count": 49,
   "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời",
   "release_history": [
+    {
+      "build_id": "20261109_004404",
+      "display_version": "v4.0.3 (Build 09-11-2026 00h44)",
+      "released_at": "2026-11-09 00:44:04",
+      "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
+    },
     {
       "build_id": "20261109_004228",
       "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
