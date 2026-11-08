@@ -1,12 +1,46 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_171854",
-  "display_version": "v4.0.3 (Build 08-11-2026 17h18)",
-  "released_at": "2026-11-08 17:18:54",
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/6c20d1551da494f78889b99830750dc0f798767e/veo3_patch.bin",
-  "patch_sha256": "ef3aa09fb0cd1c62c3c4292a6e84772a1224de7548e37499879d09aab2e3788a",
-  "zip_sha256": "74a5a4fbcb2680a14ccc84630f878bc7dabae8414c1385ae152e12fb8c12916a",
-  "patch_size_bytes": 655199,
+  "build_id": "20261108_180709",
+  "display_version": "v4.0.3 (Build 08-11-2026 18h07)",
+  "released_at": "2026-11-08 18:07:09",
+  "is_cumulative": true,
+  "force_update": false,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/3e5a7f2cc8a050d579f8530cb46c952954d371b5/veo3_patch.bin",
+  "patch_sha256": "8dce3be6e9ccd1fae0f64f4c6e561f1467dc1851c9f741eb0847594419564fa4",
+  "zip_sha256": "4988fedc54d0bbd4488f342b29bc122de119dc78bf3b15ab26e1cad2385e71be",
+  "patch_size_bytes": 656441,
   "files_count": 49,
-  "changelog": "Fix 100% vong lap integrity_check_failed Muse AI (ban giao tu dong sang Veo3 NanoAI), chong Muse om hang cho (idle_muse_w + 2) va mo khoa toc do Master MC Serverless (pacing 8s, Scotty Semaphore 4)"
+  "changelog": "Nang cap co che OTA Gop Tron Bo 1-Click (nhay thang len ban moi nhat bao gom 100% cac ban truoc, 0s cache CDN) va Tuy Chon Khong Bat Buoc (chi cap nhat khi nguoi dung chu dong bam nut)",
+  "release_history": [
+    {
+      "build_id": "20261108_180709",
+      "display_version": "v4.0.3 (Build 08-11-2026 18h07)",
+      "released_at": "2026-11-08 18:07:09",
+      "changelog": "Nang cap co che OTA Gop Tron Bo 1-Click (nhay thang len ban moi nhat bao gom 100% cac ban truoc, 0s cache CDN) va Tuy Chon Khong Bat Buoc (chi cap nhat khi nguoi dung chu dong bam nut)"
+    },
+    {
+      "build_id": "20261108_171854",
+      "display_version": "v4.0.3 (Build 08-11-2026 17h18)",
+      "released_at": "2026-11-08 17:18:54",
+      "changelog": "Chặn vòng lặp vô tận integrity_check_failed trên Muse AI (bàn giao tự động sang Veo3 NanoAI), chống Muse om hàng chờ (idle_muse_w + 2) và mở khóa tốc độ tạo ảnh Master MC Serverless (8s/acc, Scotty Semaphore 4)."
+    },
+    {
+      "build_id": "20261108_160002",
+      "display_version": "v4.0.3 (Build 08-11-2026 16h00)",
+      "released_at": "2026-11-08 16:00:02",
+      "changelog": "Triệt tiêu 100% lỗi SCOTTY_UPLOAD_IMG1_FAILED khi đẩy ảnh đa luồng (khóa cứng IPv4 CurlOpt.IPRESOLVE + nén chuẩn hóa ảnh <=800px + HTTP/1.1 retry)."
+    },
+    {
+      "build_id": "20261108_124606",
+      "display_version": "v4.0.3 (Build 08-11-2026 12h46)",
+      "released_at": "2026-11-08 12:46:06",
+      "changelog": "Gỡ bỏ khóa cứng số luồng/tài khoản NanoAPI V3, xóa 16s chờ chết mỗi sản phẩm khi tải video và nhân đôi tốc độ Muse AI (2 luồng/Profile)."
+    },
+    {
+      "build_id": "20261108_004338",
+      "display_version": "v4.0.3 (Build 08-11-2026 00h43)",
+      "released_at": "2026-11-08 00:43:38",
+      "changelog": "Triển khai hệ thống cập nhật 1-Click OTA, chống sập tab Out of Memory trên trình duyệt GPMLogin và sửa 4 lỗi Xuất Excel."
+    }
+  ]
 }
