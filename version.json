@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_180709",
-  "display_version": "v4.0.3 (Build 08-11-2026 18h07)",
-  "released_at": "2026-11-08 18:07:09",
+  "build_id": "20261108_183104",
+  "display_version": "v4.0.3 (Build 08-11-2026 18h31)",
+  "released_at": "2026-11-08 18:31:04",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/3e5a7f2cc8a050d579f8530cb46c952954d371b5/veo3_patch.bin",
-  "patch_sha256": "8dce3be6e9ccd1fae0f64f4c6e561f1467dc1851c9f741eb0847594419564fa4",
-  "zip_sha256": "4988fedc54d0bbd4488f342b29bc122de119dc78bf3b15ab26e1cad2385e71be",
-  "patch_size_bytes": 656441,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/2d019d096654ee413c4598d24c915fefc504df44/veo3_patch.bin",
+  "patch_sha256": "365ff32e164f0df7671f4da715f1687653d200c5e6c8d495f174576690d5d01f",
+  "zip_sha256": "acb7d17c1c3e65e9462c286b8f1ce7198129682984b2e22108c252060a38b71e",
+  "patch_size_bytes": 656946,
   "files_count": 49,
-  "changelog": "Nang cap co che OTA Gop Tron Bo 1-Click (nhay thang len ban moi nhat bao gom 100% cac ban truoc, 0s cache CDN) va Tuy Chon Khong Bat Buoc (chi cap nhat khi nguoi dung chu dong bam nut)",
+  "changelog": "Fix triet de loi xuat Excel tren ban Build 7h57 (tu dong xuat toan bo video da hoan thanh khi bi danh dau nham Da xuat do chuyen file .mp4, bo sung DONE_ALL, loc ky tu XML loi openpyxl)",
   "release_history": [
+    {
+      "build_id": "20261108_183104",
+      "display_version": "v4.0.3 (Build 08-11-2026 18h31)",
+      "released_at": "2026-11-08 18:31:04",
+      "changelog": "Fix triet de loi xuat Excel tren ban Build 7h57 (tu dong xuat toan bo video da hoan thanh khi bi danh dau nham Da xuat do chuyen file .mp4, bo sung DONE_ALL, loc ky tu XML loi openpyxl)"
+    },
     {
       "build_id": "20261108_180709",
       "display_version": "v4.0.3 (Build 08-11-2026 18h07)",
