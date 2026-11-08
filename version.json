@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261108_215520",
-  "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
-  "released_at": "2026-11-08 21:55:20",
+  "build_id": "20261109_004228",
+  "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
+  "released_at": "2026-11-09 00:42:28",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/22332c3dbdfd9817d8f09182349bfc630399b65e/veo3_patch.bin",
-  "patch_sha256": "b11ee5401d0f51736f24f73461289b0046f934e5f2fc07dc3f39817a8913a00d",
-  "zip_sha256": "034f41866afe0d562ceabb2de4d91d35e875eae287c74909a13b6ecbd4f9220f",
-  "patch_size_bytes": 659415,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/fdcfdc728e82b30db6634128553fb51002b2f2af/veo3_patch.bin",
+  "patch_sha256": "d4b8f7237d29566a3297c09e7738d026d361f0226f6012a40d604bcf0b91ed51",
+  "zip_sha256": "0ae82e63c6dbbb996e04f44542cfb831b12d8add635b279b37e590d1ad523448",
+  "patch_size_bytes": 661885,
   "files_count": 49,
-  "changelog": "Fix MISSING_SNLM0E_NOT_LOGGED_IN, per-port CDP WebSocket lock preventing Inspector.detached F5 reloads on Gemini & Muse AI, and full 36-profile GPM path mapping",
+  "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời",
   "release_history": [
+    {
+      "build_id": "20261109_004228",
+      "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
+      "released_at": "2026-11-09 00:42:28",
+      "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
+    },
     {
       "build_id": "20261108_215520",
       "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
