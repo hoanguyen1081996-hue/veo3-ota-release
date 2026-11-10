@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261110_232308",
-  "display_version": "v4.0.3 (Build 10-11-2026 23h23)",
-  "released_at": "2026-11-10 23:23:08",
+  "build_id": "20261111_011857",
+  "display_version": "v4.0.3 (Build 11-11-2026 01h18)",
+  "released_at": "2026-11-11 01:18:57",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/7510eb78fbd120d56179067d52547866475371a9/veo3_patch.bin",
-  "patch_sha256": "914f25d2ff3942aaa57e3274d4f31b96f8f927d97d00595a8e16382bdf7554f2",
-  "zip_sha256": "35cc572a1d1ef6a2c65a533b27f07448213fce6a98d49c9edcc294eceb723e89",
-  "patch_size_bytes": 672789,
-  "files_count": 49,
-  "changelog": "Forensic Code Review v2.6: Triet tieu 8 loi nghen luong Muse AI (active_ids deadlock, cold-boot hb poisoning, double base64 upload, 20s premature drop, 0ms instant harvest & Part1->Part2 RAM frame cache)",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/2311b456d8b5f929641035848d71d8e24182ea52/veo3_patch.bin",
+  "patch_sha256": "f2e1958e4fe14a8ff9b017edea6b7c4f628e5390662b938ab2319e30e11c9b9a",
+  "zip_sha256": "f4ba85505900116574db6f15d36ae3c63f46cd05990b24862ce4765caaedc14c",
+  "patch_size_bytes": 709380,
+  "files_count": 53,
+  "changelog": "Nâng cấp kiến trúc Cụm gRPC HTTP/2 Bi-directional Stream + Persistent CDP Push 0ms (0% Base64, tách rời GIL sang tiến trình Worker độc lập, tự động chạy ngay 100% tương thích OTA & bảo toàn 100% dữ liệu).",
   "release_history": [
+    {
+      "build_id": "20261111_011857",
+      "display_version": "v4.0.3 (Build 11-11-2026 01h18)",
+      "released_at": "2026-11-11 01:18:57",
+      "changelog": "Nâng cấp kiến trúc Cụm gRPC HTTP/2 Bi-directional Stream + Persistent CDP Push 0ms (0% Base64, tách rời GIL sang tiến trình Worker độc lập, tự động chạy ngay 100% tương thích OTA & bảo toàn 100% dữ liệu)."
+    },
     {
       "build_id": "20261110_232308",
       "display_version": "v4.0.3 (Build 10-11-2026 23h23)",
