@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261109_174323",
-  "display_version": "v4.0.3 (Build 09-11-2026 17h43)",
-  "released_at": "2026-11-09 17:43:23",
+  "build_id": "20261110_154212",
+  "display_version": "v4.0.3 (Build 10-11-2026 15h42)",
+  "released_at": "2026-11-10 15:42:12",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/da993aaf78b26910c6851723311aad62b4f8b318/veo3_patch.bin",
-  "patch_sha256": "0ceb680391c4e43b4e4e5ac5170e3279817f0a2dbbb77c253bd247cea60bec0c",
-  "zip_sha256": "684c09a8275f3831b9ab4cea4a253dc731a7c253b3001be21aa37d0da23c00bc",
-  "patch_size_bytes": 667534,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/abf9f6277d7b8bcdbdfa590c691ffe89caaa17ff/veo3_patch.bin",
+  "patch_sha256": "e02a2f94d7d9f2a0a7c8818c641041ca624545c53e0c2fa47117f9c4110a5865",
+  "zip_sha256": "bb07e8ce1dd1309138929351946d06a26fc48d1d0a949ff8dafbaa61497c6bd1",
+  "patch_size_bytes": 670021,
   "files_count": 49,
-  "changelog": "Fix triệt để: (1) Chống ẩn mất cửa sổ CMD sau cập nhật OTA (giữ nguyên cửa sổ Start_Veo3_Suite.bat / tự bật AllocConsole hiển thị); (2) Chống giảm dần 10 Chrome Muse về 0 sau 30 phút (đối soát & thu hồi slot muse_active_tasks tự động, làm mới cache React Fiber RPC mỗi 15s, ghi heartbeat.txt nguyên tử v2.5 chống tự tắt Daemon khi chạy 2 luồng, và tự động reload Tab Muse AI khi kết nối Hatch VM hết hạn)",
+  "changelog": "Tái kiến trúc toàn diện hệ thống Muse AI 24/7: (1) Loại bỏ cơ chế nhận diện nhầm HTTP 429 tạm thời / chữ trong lịch sử chat cũ thành hết Quota 24h khiến 10 Chrome bị tắt dần sau 30 phút; (2) Giải phóng hoàn toàn khóa MUSE_LOCK khỏi tác vụ trích xuất ảnh ffmpeg và tự động loại bỏ task hỏng ảnh mỏ neo khỏi đầu hàng đợi; (3) Mở rộng bộ lọc ứng viên chống nghẽn LIMIT 60 -> 250 và tự động chữa lành cờ part1_done lệch đĩa; (4) Tự động đồng bộ tiến trình OS, hồi sinh Hatch VM Daemon khi đứng nhịp tim và tự động làm mới vòng lặp Pool 24/7.",
   "release_history": [
+    {
+      "build_id": "20261110_154212",
+      "display_version": "v4.0.3 (Build 10-11-2026 15h42)",
+      "released_at": "2026-11-10 15:42:12",
+      "changelog": "Tái kiến trúc toàn diện hệ thống Muse AI 24/7: (1) Loại bỏ cơ chế nhận diện nhầm HTTP 429 tạm thời / chữ trong lịch sử chat cũ thành hết Quota 24h khiến 10 Chrome bị tắt dần sau 30 phút; (2) Giải phóng hoàn toàn khóa MUSE_LOCK khỏi tác vụ trích xuất ảnh ffmpeg và tự động loại bỏ task hỏng ảnh mỏ neo khỏi đầu hàng đợi; (3) Mở rộng bộ lọc ứng viên chống nghẽn LIMIT 60 -> 250 và tự động chữa lành cờ part1_done lệch đĩa; (4) Tự động đồng bộ tiến trình OS, hồi sinh Hatch VM Daemon khi đứng nhịp tim và tự động làm mới vòng lặp Pool 24/7."
+    },
     {
       "build_id": "20261109_174323",
       "display_version": "v4.0.3 (Build 09-11-2026 17h43)",
