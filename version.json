@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261111_011857",
-  "display_version": "v4.0.3 (Build 11-11-2026 01h18)",
-  "released_at": "2026-11-11 01:18:57",
+  "build_id": "20261111_023744",
+  "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
+  "released_at": "2026-11-11 02:37:44",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/2311b456d8b5f929641035848d71d8e24182ea52/veo3_patch.bin",
-  "patch_sha256": "f2e1958e4fe14a8ff9b017edea6b7c4f628e5390662b938ab2319e30e11c9b9a",
-  "zip_sha256": "f4ba85505900116574db6f15d36ae3c63f46cd05990b24862ce4765caaedc14c",
-  "patch_size_bytes": 709380,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/015faab83027dbd512339e872e9732007668e4f8/veo3_patch.bin",
+  "patch_sha256": "3ae6f0450b07e62e8104e2f1bb801c583b24b489d53eb806369874fab4942054",
+  "zip_sha256": "f05bd1fe5c4aff39da2b198da1a9b4766c9e23edd2842153f5992a94c80771ea",
+  "patch_size_bytes": 712426,
   "files_count": 53,
-  "changelog": "Nâng cấp kiến trúc Cụm gRPC HTTP/2 Bi-directional Stream + Persistent CDP Push 0ms (0% Base64, tách rời GIL sang tiến trình Worker độc lập, tự động chạy ngay 100% tương thích OTA & bảo toàn 100% dữ liệu).",
+  "changelog": "Gia cố chuẩn cơ khí chính xác Cụm gRPC HTTP/2 + Persistent CDP: Khóa kép chống Extension cũ F5/cướp task, bắt cổng 0ms & tự phục hồi Inspector.detached, khóa tuần tự WebSocket/_vm_submit_lock, trích Frame cuối Single-Pass trong RAM & ghim cứng Sticky Part 1->Part 2.",
   "release_history": [
+    {
+      "build_id": "20261111_023744",
+      "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
+      "released_at": "2026-11-11 02:37:44",
+      "changelog": "Gia cố chuẩn cơ khí chính xác Cụm gRPC HTTP/2 + Persistent CDP: Khóa kép chống Extension cũ F5/cướp task, bắt cổng 0ms & tự phục hồi Inspector.detached, khóa tuần tự WebSocket/_vm_submit_lock, trích Frame cuối Single-Pass trong RAM & ghim cứng Sticky Part 1->Part 2."
+    },
     {
       "build_id": "20261111_011857",
       "display_version": "v4.0.3 (Build 11-11-2026 01h18)",
