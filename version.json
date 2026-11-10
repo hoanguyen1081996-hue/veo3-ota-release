@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261110_214138",
-  "display_version": "v4.0.3 (Build 10-11-2026 21h41)",
-  "released_at": "2026-11-10 21:41:38",
+  "build_id": "20261110_232308",
+  "display_version": "v4.0.3 (Build 10-11-2026 23h23)",
+  "released_at": "2026-11-10 23:23:08",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/c5ab543292f9171b93392e4bddc777ef206f4a14/veo3_patch.bin",
-  "patch_sha256": "78425073d2a59658b1188db2c806c1480df9405842a493db5bb66bda95fe190f",
-  "zip_sha256": "561a12f109f9c252ff8d77caae2784d383bace465bb52171862d96603be340a6",
-  "patch_size_bytes": 671793,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/7510eb78fbd120d56179067d52547866475371a9/veo3_patch.bin",
+  "patch_sha256": "914f25d2ff3942aaa57e3274d4f31b96f8f927d97d00595a8e16382bdf7554f2",
+  "zip_sha256": "35cc572a1d1ef6a2c65a533b27f07448213fce6a98d49c9edcc294eceb723e89",
+  "patch_size_bytes": 672789,
   "files_count": 49,
-  "changelog": "Xử lý triệt để hiện tượng dồn 125 task CHỜ (chỉ giữ buffer tinh gọn theo đúng số Chrome đồng thời, ưu tiên tuyệt đối Part 2 lên đầu để ghép xong video 2/2 tức thì), xoay Chrome 0s chờ khi hết hạn mức ngày (xóa độ trễ chờ oan 5 phút do lệch nhịp active_muse_tasks), và tối ưu 0-RPC Fast-Path trên Hatch VM.",
+  "changelog": "Forensic Code Review v2.6: Triet tieu 8 loi nghen luong Muse AI (active_ids deadlock, cold-boot hb poisoning, double base64 upload, 20s premature drop, 0ms instant harvest & Part1->Part2 RAM frame cache)",
   "release_history": [
+    {
+      "build_id": "20261110_232308",
+      "display_version": "v4.0.3 (Build 10-11-2026 23h23)",
+      "released_at": "2026-11-10 23:23:08",
+      "changelog": "Forensic Code Review v2.6: Triet tieu 8 loi nghen luong Muse AI (active_ids deadlock, cold-boot hb poisoning, double base64 upload, 20s premature drop, 0ms instant harvest & Part1->Part2 RAM frame cache)"
+    },
     {
       "build_id": "20261110_214138",
       "display_version": "v4.0.3 (Build 10-11-2026 21h41)",
