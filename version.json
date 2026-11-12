@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261111_023744",
-  "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
-  "released_at": "2026-11-11 02:37:44",
+  "build_id": "20261112_153607",
+  "display_version": "v4.0.3 (Build 12-11-2026 15h36)",
+  "released_at": "2026-11-12 15:36:07",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/015faab83027dbd512339e872e9732007668e4f8/veo3_patch.bin",
-  "patch_sha256": "3ae6f0450b07e62e8104e2f1bb801c583b24b489d53eb806369874fab4942054",
-  "zip_sha256": "f05bd1fe5c4aff39da2b198da1a9b4766c9e23edd2842153f5992a94c80771ea",
-  "patch_size_bytes": 712426,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e005658d86c7bbb85f712de0c174f61aa26622e5/veo3_patch.bin",
+  "patch_sha256": "55f203dda5d3a40412c5699e4264796e0959503e5478380d00a3be6a4fc3b548",
+  "zip_sha256": "818bc678e4e8dfa32ab050d279e4c7dfbdc11c0c7cabd6ae4ff6f54d17a27bc8",
+  "patch_size_bytes": 721897,
   "files_count": 53,
-  "changelog": "Gia cố chuẩn cơ khí chính xác Cụm gRPC HTTP/2 + Persistent CDP: Khóa kép chống Extension cũ F5/cướp task, bắt cổng 0ms & tự phục hồi Inspector.detached, khóa tuần tự WebSocket/_vm_submit_lock, trích Frame cuối Single-Pass trong RAM & ghim cứng Sticky Part 1->Part 2.",
+  "changelog": "Hotfix triet de loi treo he thong khi nhieu Chrome Muse cham gioi han limit ngay (Hatch VM v2.7, 0ms Atomic Quota Lockout, Anti-False-Port-Close under GPU Load, Auto Orphan Task Recovery & Clean GPM Rotation)",
   "release_history": [
+    {
+      "build_id": "20261112_153607",
+      "display_version": "v4.0.3 (Build 12-11-2026 15h36)",
+      "released_at": "2026-11-12 15:36:07",
+      "changelog": "Hotfix triet de loi treo he thong khi nhieu Chrome Muse cham gioi han limit ngay (Hatch VM v2.7, 0ms Atomic Quota Lockout, Anti-False-Port-Close under GPU Load, Auto Orphan Task Recovery & Clean GPM Rotation)"
+    },
     {
       "build_id": "20261111_023744",
       "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
