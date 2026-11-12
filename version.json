@@ -1,22 +1,22 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261112_153607",
-  "display_version": "v4.0.3 (Build 12-11-2026 15h36)",
-  "released_at": "2026-11-12 15:36:07",
+  "build_id": "20261112_153858",
+  "display_version": "v4.0.3 (Build 12-11-2026 15h38)",
+  "released_at": "2026-11-12 15:38:58",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e005658d86c7bbb85f712de0c174f61aa26622e5/veo3_patch.bin",
-  "patch_sha256": "55f203dda5d3a40412c5699e4264796e0959503e5478380d00a3be6a4fc3b548",
-  "zip_sha256": "818bc678e4e8dfa32ab050d279e4c7dfbdc11c0c7cabd6ae4ff6f54d17a27bc8",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/ed654a7f1f1f91085f4cd89962e62463365b49d7/veo3_patch.bin",
+  "patch_sha256": "a9c6ece8f259782178a674e52428698e4bcd152c263c0743e7bfff1913441d57",
+  "zip_sha256": "b2d0b8dce10b54fd9a74070db6e2ccd352c1c6c1318ad2d7e190c70276d18f4c",
   "patch_size_bytes": 721897,
   "files_count": 53,
-  "changelog": "Hotfix triet de loi treo he thong khi nhieu Chrome Muse cham gioi han limit ngay (Hatch VM v2.7, 0ms Atomic Quota Lockout, Anti-False-Port-Close under GPU Load, Auto Orphan Task Recovery & Clean GPM Rotation)",
+  "changelog": "Xử lý triệt để lỗi treo hệ thống khi nhiều Chrome Muse chạm giới hạn ngày đồng thời: Nâng cấp nóng Hatch VM Daemon v2.7 bắt chuẩn 429 Daily Limit, khóa nguyên tử 0ms chống dội lặp task, tự động giải cứu Task mồ côi sang Chrome khỏe sau 2s (0 cần xóa tay), xoay vòng GPM sạch và bảo vệ cổng CDP khi GPU tải nặng.",
   "release_history": [
     {
-      "build_id": "20261112_153607",
-      "display_version": "v4.0.3 (Build 12-11-2026 15h36)",
-      "released_at": "2026-11-12 15:36:07",
-      "changelog": "Hotfix triet de loi treo he thong khi nhieu Chrome Muse cham gioi han limit ngay (Hatch VM v2.7, 0ms Atomic Quota Lockout, Anti-False-Port-Close under GPU Load, Auto Orphan Task Recovery & Clean GPM Rotation)"
+      "build_id": "20261112_153858",
+      "display_version": "v4.0.3 (Build 12-11-2026 15h38)",
+      "released_at": "2026-11-12 15:38:58",
+      "changelog": "Xử lý triệt để lỗi treo hệ thống khi nhiều Chrome Muse chạm giới hạn ngày đồng thời: Nâng cấp nóng Hatch VM Daemon v2.7 bắt chuẩn 429 Daily Limit, khóa nguyên tử 0ms chống dội lặp task, tự động giải cứu Task mồ côi sang Chrome khỏe sau 2s (0 cần xóa tay), xoay vòng GPM sạch và bảo vệ cổng CDP khi GPU tải nặng."
     },
     {
       "build_id": "20261111_023744",
