@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261112_153858",
-  "display_version": "v4.0.3 (Build 12-11-2026 15h38)",
-  "released_at": "2026-11-12 15:38:58",
+  "build_id": "20261112_223232",
+  "display_version": "v4.0.3 (Build 12-11-2026 22h32)",
+  "released_at": "2026-11-12 22:32:32",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/ed654a7f1f1f91085f4cd89962e62463365b49d7/veo3_patch.bin",
-  "patch_sha256": "a9c6ece8f259782178a674e52428698e4bcd152c263c0743e7bfff1913441d57",
-  "zip_sha256": "b2d0b8dce10b54fd9a74070db6e2ccd352c1c6c1318ad2d7e190c70276d18f4c",
-  "patch_size_bytes": 721897,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/48dace9ee826db0152dc2ae8585591906c2a72df/veo3_patch.bin",
+  "patch_sha256": "97450c319dcdb588e88cd4161cd3df5dd0bbd34626fa844ccef715d125e51095",
+  "zip_sha256": "e226b83f504e614992dc624f1b928f604a8d9de68d35fa4668151b6194fc835a",
+  "patch_size_bytes": 726525,
   "files_count": 53,
-  "changelog": "Xử lý triệt để lỗi treo hệ thống khi nhiều Chrome Muse chạm giới hạn ngày đồng thời: Nâng cấp nóng Hatch VM Daemon v2.7 bắt chuẩn 429 Daily Limit, khóa nguyên tử 0ms chống dội lặp task, tự động giải cứu Task mồ côi sang Chrome khỏe sau 2s (0 cần xóa tay), xoay vòng GPM sạch và bảo vệ cổng CDP khi GPU tải nặng.",
+  "changelog": "Xử lý triệt để 100% lỗi Muse dừng nạp việc ở 1/2 Ready: đồng bộ Disk-Truth SQLite, chặn khóa nhầm MUSE_REFUSED_PRODUCTS khi tắt NanoAI, tự chữa lành 2 tầng integrity_check_failed và bảo vệ cache existing_parts trên Worker gRPC",
   "release_history": [
+    {
+      "build_id": "20261112_223232",
+      "display_version": "v4.0.3 (Build 12-11-2026 22h32)",
+      "released_at": "2026-11-12 22:32:32",
+      "changelog": "Xử lý triệt để 100% lỗi Muse dừng nạp việc ở 1/2 Ready: đồng bộ Disk-Truth SQLite, chặn khóa nhầm MUSE_REFUSED_PRODUCTS khi tắt NanoAI, tự chữa lành 2 tầng integrity_check_failed và bảo vệ cache existing_parts trên Worker gRPC"
+    },
     {
       "build_id": "20261112_153858",
       "display_version": "v4.0.3 (Build 12-11-2026 15h38)",
