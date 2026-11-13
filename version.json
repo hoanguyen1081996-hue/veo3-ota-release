@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261112_223232",
-  "display_version": "v4.0.3 (Build 12-11-2026 22h32)",
-  "released_at": "2026-11-12 22:32:32",
+  "build_id": "20261113_175812",
+  "display_version": "v4.0.3 (Build 13-11-2026 17h58)",
+  "released_at": "2026-11-13 17:58:12",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/48dace9ee826db0152dc2ae8585591906c2a72df/veo3_patch.bin",
-  "patch_sha256": "97450c319dcdb588e88cd4161cd3df5dd0bbd34626fa844ccef715d125e51095",
-  "zip_sha256": "e226b83f504e614992dc624f1b928f604a8d9de68d35fa4668151b6194fc835a",
-  "patch_size_bytes": 726525,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/bc4b80823ca3a4d9ffa405ba23adf50333558409/veo3_patch.bin",
+  "patch_sha256": "41471257d392a76f285c05c16f721aa38e4f44e7300f0e9ece8cbf89701f9a29",
+  "zip_sha256": "64e1b61108ed1a719a52816e6f79dd7114a6cfb6f0ab3a4719a8e768946ca06b",
+  "patch_size_bytes": 742397,
   "files_count": 53,
-  "changelog": "Xử lý triệt để 100% lỗi Muse dừng nạp việc ở 1/2 Ready: đồng bộ Disk-Truth SQLite, chặn khóa nhầm MUSE_REFUSED_PRODUCTS khi tắt NanoAI, tự chữa lành 2 tầng integrity_check_failed và bảo vệ cache existing_parts trên Worker gRPC",
+  "changelog": "Nâng cấp toàn diện NanoAPI V3 Async Poll Harvester, gia hạn OAuth2 ya29 ngầm, giải phóng triệt để 429/as29s CDN, sửa Cookie __Host-/IPv6 Gemini tạo ảnh MC và tối ưu SQLite Queue.",
   "release_history": [
+    {
+      "build_id": "20261113_175812",
+      "display_version": "v4.0.3 (Build 13-11-2026 17h58)",
+      "released_at": "2026-11-13 17:58:12",
+      "changelog": "Nâng cấp toàn diện NanoAPI V3 Async Poll Harvester, gia hạn OAuth2 ya29 ngầm, giải phóng triệt để 429/as29s CDN, sửa Cookie __Host-/IPv6 Gemini tạo ảnh MC và tối ưu SQLite Queue."
+    },
     {
       "build_id": "20261112_223232",
       "display_version": "v4.0.3 (Build 12-11-2026 22h32)",
