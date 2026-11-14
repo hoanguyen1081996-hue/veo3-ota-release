@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261113_215450",
-  "display_version": "v4.0.3 (Build 13-11-2026 21h54)",
-  "released_at": "2026-11-13 21:54:50",
+  "build_id": "20261114_165426",
+  "display_version": "v4.0.3 (Build 14-11-2026 16h54)",
+  "released_at": "2026-11-14 16:54:26",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/8b66ea9ea2b15b539157938220d21879208e625f/veo3_patch.bin",
-  "patch_sha256": "69cdeed4ff326aa2483b8da5234b788997f533c1fc54af36c23f4119ee430bf0",
-  "zip_sha256": "486151f2e0e2cb5b72179a686d19db803429a9a0b93fbaae7dcffa3628468aaa",
-  "patch_size_bytes": 750008,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/dba4f985efcffa922361064ba269832f14827f10/veo3_patch.bin",
+  "patch_sha256": "c11595c8d1ae2dcb139df46f9c05b1676fa64413bf417d0ab73f2607473dbf95",
+  "zip_sha256": "c56623ef2756e40bb86a5a312334c788055432f9b8dc1782b87ac6aed635ba72",
+  "patch_size_bytes": 752019,
   "files_count": 53,
-  "changelog": "Fix triet de thu hoach video NanoAI V3 (as29s + flow.google.com OSID + ServiceLogin handshake), giam burst socket RemoteDisconnected, va sua nhan dien/chong tu dong tat Chrome Muse AI.",
+  "changelog": "Đồng bộ bản vá OTA 1-Click, chống sập tab Out of Memory & sửa 4 lỗi Xuất Excel.",
   "release_history": [
+    {
+      "build_id": "20261114_165426",
+      "display_version": "v4.0.3 (Build 14-11-2026 16h54)",
+      "released_at": "2026-11-14 16:54:26",
+      "changelog": "Đồng bộ bản vá OTA 1-Click, chống sập tab Out of Memory & sửa 4 lỗi Xuất Excel."
+    },
     {
       "build_id": "20261113_215450",
       "display_version": "v4.0.3 (Build 13-11-2026 21h54)",
