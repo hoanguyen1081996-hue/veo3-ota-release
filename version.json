@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261114_165426",
-  "display_version": "v4.0.3 (Build 14-11-2026 16h54)",
-  "released_at": "2026-11-14 16:54:26",
+  "build_id": "20261114_173005",
+  "display_version": "v4.0.3 (Build 14-11-2026 17h30)",
+  "released_at": "2026-11-14 17:30:05",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/dba4f985efcffa922361064ba269832f14827f10/veo3_patch.bin",
-  "patch_sha256": "c11595c8d1ae2dcb139df46f9c05b1676fa64413bf417d0ab73f2607473dbf95",
-  "zip_sha256": "c56623ef2756e40bb86a5a312334c788055432f9b8dc1782b87ac6aed635ba72",
-  "patch_size_bytes": 752019,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/bf6f7d57ffaa629327cbb57fd41f653dd18acaa1/veo3_patch.bin",
+  "patch_sha256": "4d471953f3060fc4780eb3da63dd8529df89870e11baee155307029b8eb8c880",
+  "zip_sha256": "190cf9896edeb8cc90a0a1a8fa624006b437a139bfb48c0570517b4fd0728492",
+  "patch_size_bytes": 757397,
   "files_count": 53,
-  "changelog": "Đồng bộ bản vá OTA 1-Click, chống sập tab Out of Memory & sửa 4 lỗi Xuất Excel.",
+  "changelog": "fix(oauth,heartbeat): auto-mint ya29 tokens from open Chrome & cookies via curl_cffi",
   "release_history": [
+    {
+      "build_id": "20261114_173005",
+      "display_version": "v4.0.3 (Build 14-11-2026 17h30)",
+      "released_at": "2026-11-14 17:30:05",
+      "changelog": "fix(oauth,heartbeat): auto-mint ya29 tokens from open Chrome & cookies via curl_cffi"
+    },
     {
       "build_id": "20261114_165426",
       "display_version": "v4.0.3 (Build 14-11-2026 16h54)",
