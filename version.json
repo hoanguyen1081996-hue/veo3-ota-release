@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261116_005320",
-  "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
-  "released_at": "2026-11-16 00:53:20",
+  "build_id": "20261116_013239",
+  "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
+  "released_at": "2026-11-16 01:32:39",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/c3763642e49a9bdd7f786737ea5f08748e80d134/veo3_patch.bin",
-  "patch_sha256": "588608ef18b09550a487922562230401dcfa316d7d662a3bc6fae4973edbfbc9",
-  "zip_sha256": "89f6a4310baced9bcd3520c43adddc48f04c28569b8a853c74b5a417375ef4f4",
-  "patch_size_bytes": 784255,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/8218e36f0873ebb133980fc7abe4d6b0e7bbcc94/veo3_patch.bin",
+  "patch_sha256": "c16e830180a9ffa0e2c830ac05c80dceca3ca2e60b79096b25a81c6b3d645859",
+  "zip_sha256": "5e443031afbdba6154f927c2031d85ed624270fee32f9007fb9244a8913afaf2",
+  "patch_size_bytes": 786986,
   "files_count": 55,
-  "changelog": "Ban cap nhat v4.0.3: Va triet de 3 loi khach hang (Prompt du 2 phan doan 8D Vision, Tang toc Veo3 SLA <=60s/part, Muse AI nhan moi Chrome GPM/Workstation/9222 + Sticky Part 1->2)",
+  "changelog": "v4.0.3 Gate-3 Clean: Fix Prompt Segmentation & Vision 8D, Veo3 SLA <=60s/part, Muse Chrome Auto-Discovery + Zero-Leak Security Hardening",
   "release_history": [
+    {
+      "build_id": "20261116_013239",
+      "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
+      "released_at": "2026-11-16 01:32:39",
+      "changelog": "v4.0.3 Gate-3 Clean: Fix Prompt Segmentation & Vision 8D, Veo3 SLA <=60s/part, Muse Chrome Auto-Discovery + Zero-Leak Security Hardening"
+    },
     {
       "build_id": "20261116_005320",
       "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 08-11-2026 16h00)",
       "released_at": "2026-11-08 16:00:02",
       "changelog": "Triệt tiêu 100% lỗi SCOTTY_UPLOAD_IMG1_FAILED khi đẩy ảnh đa luồng (khóa cứng IPv4 CurlOpt.IPRESOLVE + nén chuẩn hóa ảnh <=800px + HTTP/1.1 retry)."
-    },
-    {
-      "build_id": "20261108_124606",
-      "display_version": "v4.0.3 (Build 08-11-2026 12h46)",
-      "released_at": "2026-11-08 12:46:06",
-      "changelog": "Gỡ bỏ khóa cứng số luồng/tài khoản NanoAPI V3, xóa 16s chờ chết mỗi sản phẩm khi tải video và nhân đôi tốc độ Muse AI (2 luồng/Profile)."
     }
   ]
 }
