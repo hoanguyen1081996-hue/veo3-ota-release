@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261115_142429",
-  "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
-  "released_at": "2026-11-15 14:24:29",
+  "build_id": "20261116_005320",
+  "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
+  "released_at": "2026-11-16 00:53:20",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/469565e7049371d352ac0878fe0b1f2a2a2114b5/veo3_patch.bin",
-  "patch_sha256": "41208e1eed808aefefbe97fea7fcfa7126d84e62d4315749d4d2a90541de8286",
-  "zip_sha256": "55eb2928f7a3e8768979670c89e8aa4e934e1a05eb1462314408c16ff3bf25e6",
-  "patch_size_bytes": 764151,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/c3763642e49a9bdd7f786737ea5f08748e80d134/veo3_patch.bin",
+  "patch_sha256": "588608ef18b09550a487922562230401dcfa316d7d662a3bc6fae4973edbfbc9",
+  "zip_sha256": "89f6a4310baced9bcd3520c43adddc48f04c28569b8a853c74b5a417375ef4f4",
+  "patch_size_bytes": 784255,
   "files_count": 55,
-  "changelog": "Sửa triệt để lỗi Muse đứng Chrome (gỡ bỏ kill renderer, chống tranh chấp WebSocket CDP giữa app.py & gRPC Worker, tự động fallback cổng gRPC), xóa cắt sớm 90s waiting in queue trên Veo3 (bảo toàn task đã pass Captcha), sửa lỗi Tầng 1 stream download & tối ưu tốc độ trên máy khách.",
+  "changelog": "Ban cap nhat v4.0.3: Va triet de 3 loi khach hang (Prompt du 2 phan doan 8D Vision, Tang toc Veo3 SLA <=60s/part, Muse AI nhan moi Chrome GPM/Workstation/9222 + Sticky Part 1->2)",
   "release_history": [
+    {
+      "build_id": "20261116_005320",
+      "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
+      "released_at": "2026-11-16 00:53:20",
+      "changelog": "Ban cap nhat v4.0.3: Va triet de 3 loi khach hang (Prompt du 2 phan doan 8D Vision, Tang toc Veo3 SLA <=60s/part, Muse AI nhan moi Chrome GPM/Workstation/9222 + Sticky Part 1->2)"
+    },
     {
       "build_id": "20261115_142429",
       "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 08-11-2026 12h46)",
       "released_at": "2026-11-08 12:46:06",
       "changelog": "Gỡ bỏ khóa cứng số luồng/tài khoản NanoAPI V3, xóa 16s chờ chết mỗi sản phẩm khi tải video và nhân đôi tốc độ Muse AI (2 luồng/Profile)."
-    },
-    {
-      "build_id": "20261108_004338",
-      "display_version": "v4.0.3 (Build 08-11-2026 00h43)",
-      "released_at": "2026-11-08 00:43:38",
-      "changelog": "Triển khai hệ thống cập nhật 1-Click OTA, chống sập tab Out of Memory trên trình duyệt GPMLogin và sửa 4 lỗi Xuất Excel."
     }
   ]
 }
