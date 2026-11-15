@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261115_032436",
-  "display_version": "v4.0.3 (Build 15-11-2026 03h24)",
-  "released_at": "2026-11-15 03:24:36",
+  "build_id": "20261115_142429",
+  "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
+  "released_at": "2026-11-15 14:24:29",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/67a5142425eef0f6281f9335d77dbefc4a7db3e9/veo3_patch.bin",
-  "patch_sha256": "e4d8d8d35ab562b1c3f4a7fed726be66ea24490106d81e1d1d0fdaafc52112df",
-  "zip_sha256": "0b7f39fe5711c5f55e36db7999a1002d80c968dadde033a0f276b5d177af4cc8",
-  "patch_size_bytes": 763962,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/469565e7049371d352ac0878fe0b1f2a2a2114b5/veo3_patch.bin",
+  "patch_sha256": "41208e1eed808aefefbe97fea7fcfa7126d84e62d4315749d4d2a90541de8286",
+  "zip_sha256": "55eb2928f7a3e8768979670c89e8aa4e934e1a05eb1462314408c16ff3bf25e6",
+  "patch_size_bytes": 764151,
   "files_count": 55,
-  "changelog": "Tang toc x3 Veo3 NanoAI (cap ya29 bat dong bo 0s tre, Fast-Path as29s 0.3s, giai phong slot GPU tuc thi, giam cooldown 429) & sua triet de Muse AI nhan 100% Chrome (chong tu F5/tat nham Chrome dang tai, BFS React Fiber RPC, nhan dien moi cong Chrome GPM).",
+  "changelog": "Sửa triệt để lỗi Muse đứng Chrome (gỡ bỏ kill renderer, chống tranh chấp WebSocket CDP giữa app.py & gRPC Worker, tự động fallback cổng gRPC), xóa cắt sớm 90s waiting in queue trên Veo3 (bảo toàn task đã pass Captcha), sửa lỗi Tầng 1 stream download & tối ưu tốc độ trên máy khách.",
   "release_history": [
+    {
+      "build_id": "20261115_142429",
+      "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
+      "released_at": "2026-11-15 14:24:29",
+      "changelog": "Sửa triệt để lỗi Muse đứng Chrome (gỡ bỏ kill renderer, chống tranh chấp WebSocket CDP giữa app.py & gRPC Worker, tự động fallback cổng gRPC), xóa cắt sớm 90s waiting in queue trên Veo3 (bảo toàn task đã pass Captcha), sửa lỗi Tầng 1 stream download & tối ưu tốc độ trên máy khách."
+    },
     {
       "build_id": "20261115_032436",
       "display_version": "v4.0.3 (Build 15-11-2026 03h24)",
