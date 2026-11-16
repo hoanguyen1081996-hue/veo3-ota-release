@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261116_134412",
-  "display_version": "v4.0.3 (Build 16-11-2026 13h44)",
-  "released_at": "2026-11-16 13:44:12",
+  "build_id": "20261116_150118",
+  "display_version": "v4.0.3 (Build 16-11-2026 15h01)",
+  "released_at": "2026-11-16 15:01:18",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/05cdf3ee55064c0535b19f91fd1f9592dba7384e/veo3_patch.bin",
-  "patch_sha256": "946f9163cc011e5dbd188dd52d67ccebd6c8076417894402d59fe19cb60e7985",
-  "zip_sha256": "92d0cb3de8ee4d5935cd3e89f8d363c33df72044811f3478100e9e111e362e53",
-  "patch_size_bytes": 793659,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/ec049315df0de70a44f58a1bd5e37b14cef78cf3/veo3_patch.bin",
+  "patch_sha256": "d9906c42e260a2494305493a589b7e85032ba5c3e34ce5a6d78b3f1dd9446a96",
+  "zip_sha256": "bb425650a7368e3925c801ee886e74ac53649236c96fb2a0ecd3bab09cffc995",
+  "patch_size_bytes": 793801,
   "files_count": 55,
-  "changelog": "Vá dứt điểm kẹt Render Veo3: chống vòng lặp 429 Google Labs (giãn cách lũy tiến & trần 5 luồng/nick), cắt sớm job treo [40+] & hàng đợi kẹt 120s, diệt lặp 401 hồi sinh token cũ và chống trễ /api/state.",
+  "changelog": "Tối ưu tốc độ Veo3 & chống cắt nhầm hàng đợi NanoAI: phân biệt chuẩn pre-GPU step 1/waiting-in-queue với Google GPU [N], gỡ trễ 10-12s GPM cũ xuống 2s 0-Chrome, nối tiếp Part 1->2 tức thì, khóa 4 luồng/nick và giảm 65% tải poll.",
   "release_history": [
+    {
+      "build_id": "20261116_150118",
+      "display_version": "v4.0.3 (Build 16-11-2026 15h01)",
+      "released_at": "2026-11-16 15:01:18",
+      "changelog": "Tối ưu tốc độ Veo3 & chống cắt nhầm hàng đợi NanoAI: phân biệt chuẩn pre-GPU step 1/waiting-in-queue với Google GPU [N], gỡ trễ 10-12s GPM cũ xuống 2s 0-Chrome, nối tiếp Part 1->2 tức thì, khóa 4 luồng/nick và giảm 65% tải poll."
+    },
     {
       "build_id": "20261116_134412",
       "display_version": "v4.0.3 (Build 16-11-2026 13h44)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 08-11-2026 18h07)",
       "released_at": "2026-11-08 18:07:09",
       "changelog": "Nang cap co che OTA Gop Tron Bo 1-Click (nhay thang len ban moi nhat bao gom 100% cac ban truoc, 0s cache CDN) va Tuy Chon Khong Bat Buoc (chi cap nhat khi nguoi dung chu dong bam nut)"
-    },
-    {
-      "build_id": "20261108_171854",
-      "display_version": "v4.0.3 (Build 08-11-2026 17h18)",
-      "released_at": "2026-11-08 17:18:54",
-      "changelog": "Chặn vòng lặp vô tận integrity_check_failed trên Muse AI (bàn giao tự động sang Veo3 NanoAI), chống Muse om hàng chờ (idle_muse_w + 2) và mở khóa tốc độ tạo ảnh Master MC Serverless (8s/acc, Scotty Semaphore 4)."
     }
   ]
 }
