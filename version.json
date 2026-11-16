@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261116_013239",
-  "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
-  "released_at": "2026-11-16 01:32:39",
+  "build_id": "20261116_134412",
+  "display_version": "v4.0.3 (Build 16-11-2026 13h44)",
+  "released_at": "2026-11-16 13:44:12",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/8218e36f0873ebb133980fc7abe4d6b0e7bbcc94/veo3_patch.bin",
-  "patch_sha256": "c16e830180a9ffa0e2c830ac05c80dceca3ca2e60b79096b25a81c6b3d645859",
-  "zip_sha256": "5e443031afbdba6154f927c2031d85ed624270fee32f9007fb9244a8913afaf2",
-  "patch_size_bytes": 786986,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/05cdf3ee55064c0535b19f91fd1f9592dba7384e/veo3_patch.bin",
+  "patch_sha256": "946f9163cc011e5dbd188dd52d67ccebd6c8076417894402d59fe19cb60e7985",
+  "zip_sha256": "92d0cb3de8ee4d5935cd3e89f8d363c33df72044811f3478100e9e111e362e53",
+  "patch_size_bytes": 793659,
   "files_count": 55,
-  "changelog": "v4.0.3 Gate-3 Clean: Fix Prompt Segmentation & Vision 8D, Veo3 SLA <=60s/part, Muse Chrome Auto-Discovery + Zero-Leak Security Hardening",
+  "changelog": "Vá dứt điểm kẹt Render Veo3: chống vòng lặp 429 Google Labs (giãn cách lũy tiến & trần 5 luồng/nick), cắt sớm job treo [40+] & hàng đợi kẹt 120s, diệt lặp 401 hồi sinh token cũ và chống trễ /api/state.",
   "release_history": [
+    {
+      "build_id": "20261116_134412",
+      "display_version": "v4.0.3 (Build 16-11-2026 13h44)",
+      "released_at": "2026-11-16 13:44:12",
+      "changelog": "Vá dứt điểm kẹt Render Veo3: chống vòng lặp 429 Google Labs (giãn cách lũy tiến & trần 5 luồng/nick), cắt sớm job treo [40+] & hàng đợi kẹt 120s, diệt lặp 401 hồi sinh token cũ và chống trễ /api/state."
+    },
     {
       "build_id": "20261116_013239",
       "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 08-11-2026 17h18)",
       "released_at": "2026-11-08 17:18:54",
       "changelog": "Chặn vòng lặp vô tận integrity_check_failed trên Muse AI (bàn giao tự động sang Veo3 NanoAI), chống Muse om hàng chờ (idle_muse_w + 2) và mở khóa tốc độ tạo ảnh Master MC Serverless (8s/acc, Scotty Semaphore 4)."
-    },
-    {
-      "build_id": "20261108_160002",
-      "display_version": "v4.0.3 (Build 08-11-2026 16h00)",
-      "released_at": "2026-11-08 16:00:02",
-      "changelog": "Triệt tiêu 100% lỗi SCOTTY_UPLOAD_IMG1_FAILED khi đẩy ảnh đa luồng (khóa cứng IPv4 CurlOpt.IPRESOLVE + nén chuẩn hóa ảnh <=800px + HTTP/1.1 retry)."
     }
   ]
 }
