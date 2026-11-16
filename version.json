@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261116_224819",
-  "display_version": "v4.0.3 (Build 16-11-2026 22h48)",
-  "released_at": "2026-11-16 22:48:19",
+  "build_id": "20261117_001435",
+  "display_version": "v4.0.3 (Build 17-11-2026 00h14)",
+  "released_at": "2026-11-17 00:14:35",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/0286702e321e7d559e57ff56f5e8f8137d696495/veo3_patch.bin",
-  "patch_sha256": "96cf6762b8d7c4220accd94244c9d4d7ab2ae3da84f30a220432fd3f8efc2469",
-  "zip_sha256": "2f59aa499bea221def94d2a885e1ba1dbb2d6401eb25fb2bbd5ee72d296bd626",
-  "patch_size_bytes": 797839,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/898de28ddfb66a67ab428e371d3989e9d8fa1c07/veo3_patch.bin",
+  "patch_sha256": "52d02f89486eb50d60a3ef96b50a273a5a65108a1f88ada422141dc6211518da",
+  "zip_sha256": "27947b2a712c97297fac51cd7b7094e01f7cb6bab3b5a0b038db31764e732fc0",
+  "patch_size_bytes": 803907,
   "files_count": 55,
-  "changelog": "OTA #33: Triệt tiêu kẹt tab Muse trắng trang (Blank DOM) & tự động xoay vòng đủ 10/10 Chrome Muse sẵn sàng trong < 42s",
+  "changelog": "Nâng cấp Ảnh Master MC 4K (=s4096 4:4:4), chống sót ảnh khi Gemini trả kèm văn bản/đa ngôn ngữ, nâng mỏ neo Video Full HD 1920px & cắt Frame nét nhất (Laplacian Sharpness).",
   "release_history": [
+    {
+      "build_id": "20261117_001435",
+      "display_version": "v4.0.3 (Build 17-11-2026 00h14)",
+      "released_at": "2026-11-17 00:14:35",
+      "changelog": "Nâng cấp Ảnh Master MC 4K (=s4096 4:4:4), chống sót ảnh khi Gemini trả kèm văn bản/đa ngôn ngữ, nâng mỏ neo Video Full HD 1920px & cắt Frame nét nhất (Laplacian Sharpness)."
+    },
     {
       "build_id": "20261116_224819",
       "display_version": "v4.0.3 (Build 16-11-2026 22h48)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
       "released_at": "2026-11-09 00:42:28",
       "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
-    },
-    {
-      "build_id": "20261108_215520",
-      "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
-      "released_at": "2026-11-08 21:55:20",
-      "changelog": "Fix MISSING_SNLM0E_NOT_LOGGED_IN, per-port CDP WebSocket lock preventing Inspector.detached F5 reloads on Gemini & Muse AI, and full 36-profile GPM path mapping"
     }
   ]
 }
