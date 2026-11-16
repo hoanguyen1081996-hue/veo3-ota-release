@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261116_222711",
-  "display_version": "v4.0.3 (Build 16-11-2026 22h27)",
-  "released_at": "2026-11-16 22:27:11",
+  "build_id": "20261116_224819",
+  "display_version": "v4.0.3 (Build 16-11-2026 22h48)",
+  "released_at": "2026-11-16 22:48:19",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/41ed3c70b977923b17836f7ec422826a154474ea/veo3_patch.bin",
-  "patch_sha256": "f1e3815aa03e9efad040baec11dd06c84248387cf671460d6f26691d856c3bc4",
-  "zip_sha256": "2e9292618a2d93bdd0b97e01620c57ec4de664b1e4c172dedd7372d67b8b0a02",
-  "patch_size_bytes": 797552,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/0286702e321e7d559e57ff56f5e8f8137d696495/veo3_patch.bin",
+  "patch_sha256": "96cf6762b8d7c4220accd94244c9d4d7ab2ae3da84f30a220432fd3f8efc2469",
+  "zip_sha256": "2f59aa499bea221def94d2a885e1ba1dbb2d6401eb25fb2bbd5ee72d296bd626",
+  "patch_size_bytes": 797839,
   "files_count": 55,
-  "changelog": "Tối ưu toàn diện tốc độ Muse AI 10 Chrome (~300+ video/giờ): Tự động xoay vòng Chrome văng đăng nhập kẹt trang chủ, mở rộng hàng chờ chống treo xếp lốt, cắt Frame 8 luồng song song + nhả slot 0ms nối Part, và ghép Hybrid NVENC + CPU đa luồng chống nghẽn VRAM",
+  "changelog": "OTA #33: Triệt tiêu kẹt tab Muse trắng trang (Blank DOM) & tự động xoay vòng đủ 10/10 Chrome Muse sẵn sàng trong < 42s",
   "release_history": [
+    {
+      "build_id": "20261116_224819",
+      "display_version": "v4.0.3 (Build 16-11-2026 22h48)",
+      "released_at": "2026-11-16 22:48:19",
+      "changelog": "OTA #33: Triệt tiêu kẹt tab Muse trắng trang (Blank DOM) & tự động xoay vòng đủ 10/10 Chrome Muse sẵn sàng trong < 42s"
+    },
     {
       "build_id": "20261116_222711",
       "display_version": "v4.0.3 (Build 16-11-2026 22h27)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 08-11-2026 21h55)",
       "released_at": "2026-11-08 21:55:20",
       "changelog": "Fix MISSING_SNLM0E_NOT_LOGGED_IN, per-port CDP WebSocket lock preventing Inspector.detached F5 reloads on Gemini & Muse AI, and full 36-profile GPM path mapping"
-    },
-    {
-      "build_id": "20261108_183104",
-      "display_version": "v4.0.3 (Build 08-11-2026 18h31)",
-      "released_at": "2026-11-08 18:31:04",
-      "changelog": "Fix triet de loi xuat Excel tren ban Build 7h57 (tu dong xuat toan bo video da hoan thanh khi bi danh dau nham Da xuat do chuyen file .mp4, bo sung DONE_ALL, loc ky tu XML loi openpyxl)"
     }
   ]
 }
