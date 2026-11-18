@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261117_001435",
-  "display_version": "v4.0.3 (Build 17-11-2026 00h14)",
-  "released_at": "2026-11-17 00:14:35",
+  "build_id": "20261118_221538",
+  "display_version": "v4.0.3 (Build 18-11-2026 22h15)",
+  "released_at": "2026-11-18 22:15:38",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/898de28ddfb66a67ab428e371d3989e9d8fa1c07/veo3_patch.bin",
-  "patch_sha256": "52d02f89486eb50d60a3ef96b50a273a5a65108a1f88ada422141dc6211518da",
-  "zip_sha256": "27947b2a712c97297fac51cd7b7094e01f7cb6bab3b5a0b038db31764e732fc0",
-  "patch_size_bytes": 803907,
-  "files_count": 55,
-  "changelog": "Nâng cấp Ảnh Master MC 4K (=s4096 4:4:4), chống sót ảnh khi Gemini trả kèm văn bản/đa ngôn ngữ, nâng mỏ neo Video Full HD 1920px & cắt Frame nét nhất (Laplacian Sharpness).",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/b2006448540d36bd50b31f3bd75dd15c22c36fca/veo3_patch.bin",
+  "patch_sha256": "81aac77c95fa17ad3b00dfe61e742fd190e790de97ee427c3d46aff54d15d9d8",
+  "zip_sha256": "1f1adc3a1b900642f23ef3d524295a8ef01733a5f630f2870d73c034eb8630a7",
+  "patch_size_bytes": 820862,
+  "files_count": 58,
+  "changelog": "OTA #35: Vá dứt điểm lỗi Token Veo 401 (xác thực Google tokeninfo >=15p, tự gia hạn 0-Chrome 3598s, chặn lặp hạn giả) & triệt tiêu lỗi mạng yếu Write Timeout (nén chuẩn HD <=190KB + đẩy qua HTTP/2 curl_cffi nhanh gấp 5-7x).",
   "release_history": [
+    {
+      "build_id": "20261118_221538",
+      "display_version": "v4.0.3 (Build 18-11-2026 22h15)",
+      "released_at": "2026-11-18 22:15:38",
+      "changelog": "OTA #35: Vá dứt điểm lỗi Token Veo 401 (xác thực Google tokeninfo >=15p, tự gia hạn 0-Chrome 3598s, chặn lặp hạn giả) & triệt tiêu lỗi mạng yếu Write Timeout (nén chuẩn HD <=190KB + đẩy qua HTTP/2 curl_cffi nhanh gấp 5-7x)."
+    },
     {
       "build_id": "20261117_001435",
       "display_version": "v4.0.3 (Build 17-11-2026 00h14)",
@@ -154,12 +160,6 @@
       "build_id": "20261109_004404",
       "display_version": "v4.0.3 (Build 09-11-2026 00h44)",
       "released_at": "2026-11-09 00:44:04",
-      "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
-    },
-    {
-      "build_id": "20261109_004228",
-      "display_version": "v4.0.3 (Build 09-11-2026 00h42)",
-      "released_at": "2026-11-09 00:42:28",
       "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
     }
   ]
