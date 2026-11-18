@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261118_221538",
-  "display_version": "v4.0.3 (Build 18-11-2026 22h15)",
-  "released_at": "2026-11-18 22:15:38",
+  "build_id": "20261118_231936",
+  "display_version": "v4.0.3 (Build 18-11-2026 23h19)",
+  "released_at": "2026-11-18 23:19:36",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/b2006448540d36bd50b31f3bd75dd15c22c36fca/veo3_patch.bin",
-  "patch_sha256": "81aac77c95fa17ad3b00dfe61e742fd190e790de97ee427c3d46aff54d15d9d8",
-  "zip_sha256": "1f1adc3a1b900642f23ef3d524295a8ef01733a5f630f2870d73c034eb8630a7",
-  "patch_size_bytes": 820862,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e5054dadef21d61b85857e23d7b0589990d59c9f/veo3_patch.bin",
+  "patch_sha256": "0be9089c41b7dbd8883f16c12f12ff62ecb786f3ae409045a932806fe00dc998",
+  "zip_sha256": "e545293bdf7ce8dc9d04d2be603463d386b2be39b8c17b3eb0131058ddbdcd86",
+  "patch_size_bytes": 824290,
   "files_count": 58,
-  "changelog": "OTA #35: Vá dứt điểm lỗi Token Veo 401 (xác thực Google tokeninfo >=15p, tự gia hạn 0-Chrome 3598s, chặn lặp hạn giả) & triệt tiêu lỗi mạng yếu Write Timeout (nén chuẩn HD <=190KB + đẩy qua HTTP/2 curl_cffi nhanh gấp 5-7x).",
+  "changelog": "OTA #36: Fix client Task-not-found 0s poll loop & 401 shadowing, flow.google.com OAuth2 minting, and Gemini IP refusal isolation",
   "release_history": [
+    {
+      "build_id": "20261118_231936",
+      "display_version": "v4.0.3 (Build 18-11-2026 23h19)",
+      "released_at": "2026-11-18 23:19:36",
+      "changelog": "OTA #36: Fix client Task-not-found 0s poll loop & 401 shadowing, flow.google.com OAuth2 minting, and Gemini IP refusal isolation"
+    },
     {
       "build_id": "20261118_221538",
       "display_version": "v4.0.3 (Build 18-11-2026 22h15)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 09-11-2026 17h43)",
       "released_at": "2026-11-09 17:43:23",
       "changelog": "Fix triệt để: (1) Chống ẩn mất cửa sổ CMD sau cập nhật OTA (giữ nguyên cửa sổ Start_Veo3_Suite.bat / tự bật AllocConsole hiển thị); (2) Chống giảm dần 10 Chrome Muse về 0 sau 30 phút (đối soát & thu hồi slot muse_active_tasks tự động, làm mới cache React Fiber RPC mỗi 15s, ghi heartbeat.txt nguyên tử v2.5 chống tự tắt Daemon khi chạy 2 luồng, và tự động reload Tab Muse AI khi kết nối Hatch VM hết hạn)"
-    },
-    {
-      "build_id": "20261109_004404",
-      "display_version": "v4.0.3 (Build 09-11-2026 00h44)",
-      "released_at": "2026-11-09 00:44:04",
-      "changelog": "Fix triệt để 100% lỗi lặp MISSING_SNLM0E_NOT_LOGGED_IN trên Gemini Serverless, mở khóa giới hạn 5 tài khoản Muse AI (bổ sung get_muse_workers_summary, chống gán nhầm cổng Muse sang Cột 1/2, xóa muse.ai khỏi blank_tabs) để chạy đủ 10+ tài khoản đồng thời"
     }
   ]
 }
