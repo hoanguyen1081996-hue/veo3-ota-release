@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261118_231936",
-  "display_version": "v4.0.3 (Build 18-11-2026 23h19)",
-  "released_at": "2026-11-18 23:19:36",
+  "build_id": "20261119_132324",
+  "display_version": "v4.0.3 (Build 19-11-2026 13h23)",
+  "released_at": "2026-11-19 13:23:24",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e5054dadef21d61b85857e23d7b0589990d59c9f/veo3_patch.bin",
-  "patch_sha256": "0be9089c41b7dbd8883f16c12f12ff62ecb786f3ae409045a932806fe00dc998",
-  "zip_sha256": "e545293bdf7ce8dc9d04d2be603463d386b2be39b8c17b3eb0131058ddbdcd86",
-  "patch_size_bytes": 824290,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/dd5ec3da0295b5319100bc69c1caa4e4893e69dc/veo3_patch.bin",
+  "patch_sha256": "d507f6ebac6dfdc8a47833f75bd29fe1d799219e92d704486004677bd68760d7",
+  "zip_sha256": "c80a1953c0389baea70c68de6a8b5cfa6457544370c9fe60f9c13578d4064478",
+  "patch_size_bytes": 828504,
   "files_count": 58,
-  "changelog": "OTA #36: Fix client Task-not-found 0s poll loop & 401 shadowing, flow.google.com OAuth2 minting, and Gemini IP refusal isolation",
+  "changelog": "OTA #37: Khac phuc triet de loi chay khong ra video sau cap nhat (tu mo khoa Cot 1 veo3_unsupported, tu bat tao anh MC, khoi phuc trich xuat Token Flow localStorage, chong lap 401 & ho tro ID Profile ngan)",
   "release_history": [
+    {
+      "build_id": "20261119_132324",
+      "display_version": "v4.0.3 (Build 19-11-2026 13h23)",
+      "released_at": "2026-11-19 13:23:24",
+      "changelog": "OTA #37: Khac phuc triet de loi chay khong ra video sau cap nhat (tu mo khoa Cot 1 veo3_unsupported, tu bat tao anh MC, khoi phuc trich xuat Token Flow localStorage, chong lap 401 & ho tro ID Profile ngan)"
+    },
     {
       "build_id": "20261118_231936",
       "display_version": "v4.0.3 (Build 18-11-2026 23h19)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 10-11-2026 15h42)",
       "released_at": "2026-11-10 15:42:12",
       "changelog": "Tái kiến trúc toàn diện hệ thống Muse AI 24/7: (1) Loại bỏ cơ chế nhận diện nhầm HTTP 429 tạm thời / chữ trong lịch sử chat cũ thành hết Quota 24h khiến 10 Chrome bị tắt dần sau 30 phút; (2) Giải phóng hoàn toàn khóa MUSE_LOCK khỏi tác vụ trích xuất ảnh ffmpeg và tự động loại bỏ task hỏng ảnh mỏ neo khỏi đầu hàng đợi; (3) Mở rộng bộ lọc ứng viên chống nghẽn LIMIT 60 -> 250 và tự động chữa lành cờ part1_done lệch đĩa; (4) Tự động đồng bộ tiến trình OS, hồi sinh Hatch VM Daemon khi đứng nhịp tim và tự động làm mới vòng lặp Pool 24/7."
-    },
-    {
-      "build_id": "20261109_174323",
-      "display_version": "v4.0.3 (Build 09-11-2026 17h43)",
-      "released_at": "2026-11-09 17:43:23",
-      "changelog": "Fix triệt để: (1) Chống ẩn mất cửa sổ CMD sau cập nhật OTA (giữ nguyên cửa sổ Start_Veo3_Suite.bat / tự bật AllocConsole hiển thị); (2) Chống giảm dần 10 Chrome Muse về 0 sau 30 phút (đối soát & thu hồi slot muse_active_tasks tự động, làm mới cache React Fiber RPC mỗi 15s, ghi heartbeat.txt nguyên tử v2.5 chống tự tắt Daemon khi chạy 2 luồng, và tự động reload Tab Muse AI khi kết nối Hatch VM hết hạn)"
     }
   ]
 }
