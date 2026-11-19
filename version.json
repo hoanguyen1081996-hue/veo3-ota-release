@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261119_132324",
-  "display_version": "v4.0.3 (Build 19-11-2026 13h23)",
-  "released_at": "2026-11-19 13:23:24",
+  "build_id": "20261119_203456",
+  "display_version": "v4.0.3 (Build 19-11-2026 20h34)",
+  "released_at": "2026-11-19 20:34:56",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/dd5ec3da0295b5319100bc69c1caa4e4893e69dc/veo3_patch.bin",
-  "patch_sha256": "d507f6ebac6dfdc8a47833f75bd29fe1d799219e92d704486004677bd68760d7",
-  "zip_sha256": "c80a1953c0389baea70c68de6a8b5cfa6457544370c9fe60f9c13578d4064478",
-  "patch_size_bytes": 828504,
-  "files_count": 58,
-  "changelog": "OTA #37: Khac phuc triet de loi chay khong ra video sau cap nhat (tu mo khoa Cot 1 veo3_unsupported, tu bat tao anh MC, khoi phuc trich xuat Token Flow localStorage, chong lap 401 & ho tro ID Profile ngan)",
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/349272c7bc30e50c3850efdf9e7acb2d766d544f/veo3_patch.bin",
+  "patch_sha256": "91d1b3b99b47ff96904894627817a73a5285baf93f17c681741bfaa16140e172",
+  "zip_sha256": "1efce139618b06d8cf1144386cf2d3f338d80be9227b70934ca15a30563a7d31",
+  "patch_size_bytes": 871699,
+  "files_count": 60,
+  "changelog": "OTA #38: Tich hop Che do 2 Tao Anh Muse AI 2K/4K + 0-Chrome Noise XX Protocol (cach ly hang doi .image_queue, kho phien 48h MuseSessionStore tu dong gia han & dong bo nguoc Cookie Chrome Cot 3, chong trung job da luong, tuong thich 100% Portable)",
   "release_history": [
+    {
+      "build_id": "20261119_203456",
+      "display_version": "v4.0.3 (Build 19-11-2026 20h34)",
+      "released_at": "2026-11-19 20:34:56",
+      "changelog": "OTA #38: Tich hop Che do 2 Tao Anh Muse AI 2K/4K + 0-Chrome Noise XX Protocol (cach ly hang doi .image_queue, kho phien 48h MuseSessionStore tu dong gia han & dong bo nguoc Cookie Chrome Cot 3, chong trung job da luong, tuong thich 100% Portable)"
+    },
     {
       "build_id": "20261119_132324",
       "display_version": "v4.0.3 (Build 19-11-2026 13h23)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 10-11-2026 20h14)",
       "released_at": "2026-11-10 20:14:58",
       "changelog": "Tối ưu tốc độ Turbo Muse AI (~55-60s/video Full): Khóa chuẩn 1 luồng/Chrome chống nghẽn GPU & 429, nối mạch trực tiếp Sticky Part 1->Part 2 trên cùng Chrome (0s chờ), Pre-warm Hatch Daemon, trích xuất frame cuối tức thì trong RAM (<10ms) ở mốc 7.6s và cắt bỏ quét thừa CDP."
-    },
-    {
-      "build_id": "20261110_154212",
-      "display_version": "v4.0.3 (Build 10-11-2026 15h42)",
-      "released_at": "2026-11-10 15:42:12",
-      "changelog": "Tái kiến trúc toàn diện hệ thống Muse AI 24/7: (1) Loại bỏ cơ chế nhận diện nhầm HTTP 429 tạm thời / chữ trong lịch sử chat cũ thành hết Quota 24h khiến 10 Chrome bị tắt dần sau 30 phút; (2) Giải phóng hoàn toàn khóa MUSE_LOCK khỏi tác vụ trích xuất ảnh ffmpeg và tự động loại bỏ task hỏng ảnh mỏ neo khỏi đầu hàng đợi; (3) Mở rộng bộ lọc ứng viên chống nghẽn LIMIT 60 -> 250 và tự động chữa lành cờ part1_done lệch đĩa; (4) Tự động đồng bộ tiến trình OS, hồi sinh Hatch VM Daemon khi đứng nhịp tim và tự động làm mới vòng lặp Pool 24/7."
     }
   ]
 }
