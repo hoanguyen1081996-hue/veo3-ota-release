@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261119_203456",
-  "display_version": "v4.0.3 (Build 19-11-2026 20h34)",
-  "released_at": "2026-11-19 20:34:56",
+  "build_id": "20261119_232155",
+  "display_version": "v4.0.3 (Build 19-11-2026 23h21)",
+  "released_at": "2026-11-19 23:21:55",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/349272c7bc30e50c3850efdf9e7acb2d766d544f/veo3_patch.bin",
-  "patch_sha256": "91d1b3b99b47ff96904894627817a73a5285baf93f17c681741bfaa16140e172",
-  "zip_sha256": "1efce139618b06d8cf1144386cf2d3f338d80be9227b70934ca15a30563a7d31",
-  "patch_size_bytes": 871699,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/a3d751e3d922fce3b78c4716563afd7c1e0a0113/veo3_patch.bin",
+  "patch_sha256": "78310ac6b7348b5c3638bd61da621b044000fceac6f23edde385189f13d781b6",
+  "zip_sha256": "a26effcff440bcdb657afd401dfb50092b50951f4b94064c2a54a364c689f8e0",
+  "patch_size_bytes": 873636,
   "files_count": 60,
-  "changelog": "OTA #38: Tich hop Che do 2 Tao Anh Muse AI 2K/4K + 0-Chrome Noise XX Protocol (cach ly hang doi .image_queue, kho phien 48h MuseSessionStore tu dong gia han & dong bo nguoc Cookie Chrome Cot 3, chong trung job da luong, tuong thich 100% Portable)",
+  "changelog": "OTA #39: Va triet de MUSE_IMAGE_POLL_TIMEOUT & HTTP 403 tasks.run (/tasks/{job_id}/run, xoa heartbeat.txt dong bang khi wake VM), chan danh nham quota 429 tren ID/URL fbcdn, tu dong ket noi lai WebSocket 0-Chrome Noise & giu co dinh so Profile song song",
   "release_history": [
+    {
+      "build_id": "20261119_232155",
+      "display_version": "v4.0.3 (Build 19-11-2026 23h21)",
+      "released_at": "2026-11-19 23:21:55",
+      "changelog": "OTA #39: Va triet de MUSE_IMAGE_POLL_TIMEOUT & HTTP 403 tasks.run (/tasks/{job_id}/run, xoa heartbeat.txt dong bang khi wake VM), chan danh nham quota 429 tren ID/URL fbcdn, tu dong ket noi lai WebSocket 0-Chrome Noise & giu co dinh so Profile song song"
+    },
     {
       "build_id": "20261119_203456",
       "display_version": "v4.0.3 (Build 19-11-2026 20h34)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 10-11-2026 21h41)",
       "released_at": "2026-11-10 21:41:38",
       "changelog": "Xử lý triệt để hiện tượng dồn 125 task CHỜ (chỉ giữ buffer tinh gọn theo đúng số Chrome đồng thời, ưu tiên tuyệt đối Part 2 lên đầu để ghép xong video 2/2 tức thì), xoay Chrome 0s chờ khi hết hạn mức ngày (xóa độ trễ chờ oan 5 phút do lệch nhịp active_muse_tasks), và tối ưu 0-RPC Fast-Path trên Hatch VM."
-    },
-    {
-      "build_id": "20261110_201458",
-      "display_version": "v4.0.3 (Build 10-11-2026 20h14)",
-      "released_at": "2026-11-10 20:14:58",
-      "changelog": "Tối ưu tốc độ Turbo Muse AI (~55-60s/video Full): Khóa chuẩn 1 luồng/Chrome chống nghẽn GPU & 429, nối mạch trực tiếp Sticky Part 1->Part 2 trên cùng Chrome (0s chờ), Pre-warm Hatch Daemon, trích xuất frame cuối tức thì trong RAM (<10ms) ở mốc 7.6s và cắt bỏ quét thừa CDP."
     }
   ]
 }
