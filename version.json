@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261120_132542",
-  "display_version": "v4.0.3 (Build 20-11-2026 13h25)",
-  "released_at": "2026-11-20 13:25:42",
+  "build_id": "20261121_011820",
+  "display_version": "v4.0.3 (Build 21-11-2026 01h18)",
+  "released_at": "2026-11-21 01:18:20",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/910acfd164b4835ed8949b006015f125216f2e39/veo3_patch.bin",
-  "patch_sha256": "65ee1f6893f4750b54230531d89877678184becb3e384e3bf485ae64b885e598",
-  "zip_sha256": "a16057ee65da1fe1589346c293d120f306e415342fa2884cbdeee9dc1e752452",
-  "patch_size_bytes": 886657,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/e09aa9f2fb98d30bf50d852c15bf1cd47ecf441f/veo3_patch.bin",
+  "patch_sha256": "4d64c390b9d993aec51d4be0319d56e57dd003c75160c73c9fe92e8e2c054edc",
+  "zip_sha256": "b4ac6dcad820bd062d46063a0ee9036bbcd82ab2bc7a327d50a07b51cf9f9573",
+  "patch_size_bytes": 893609,
   "files_count": 60,
-  "changelog": "OTA #42: Chặn tuyệt đối tự thu nhỏ/chiếm Chrome cá nhân ngoài tool, sửa lỗi báo giả chưa đăng nhập Muse AI khi đang tải React & mở bù tuần tự từng 1 Chrome chống nghẽn máy",
+  "changelog": "OTA #43: Hiện Chrome bình thường (tắt toàn bộ cờ ẩn/thu nhỏ chống văng Chrome), vá dứt điểm lỗi Muse dừng giữa chừng (nới keepalive gRPC 30s/20s, chống nghẽn Event Loop, Watchdog tự hồi sinh Worker treo/lệch bản, dọn slot draining chết), chống ghi đè & mất Video 1 khi tạo Video 2 (ghi atomic + khóa theo SP + chặn phát Part 2 khi thiếu _part1.mp4 + chặn file mồ côi sau ghép), đồng bộ bộ đếm Kho Output khớp 100% thư mục output/, và tự dọn __pycache__/worker cũ chống lệch phiên bản OTA.",
   "release_history": [
+    {
+      "build_id": "20261121_011820",
+      "display_version": "v4.0.3 (Build 21-11-2026 01h18)",
+      "released_at": "2026-11-21 01:18:20",
+      "changelog": "OTA #43: Hiện Chrome bình thường (tắt toàn bộ cờ ẩn/thu nhỏ chống văng Chrome), vá dứt điểm lỗi Muse dừng giữa chừng (nới keepalive gRPC 30s/20s, chống nghẽn Event Loop, Watchdog tự hồi sinh Worker treo/lệch bản, dọn slot draining chết), chống ghi đè & mất Video 1 khi tạo Video 2 (ghi atomic + khóa theo SP + chặn phát Part 2 khi thiếu _part1.mp4 + chặn file mồ côi sau ghép), đồng bộ bộ đếm Kho Output khớp 100% thư mục output/, và tự dọn __pycache__/worker cũ chống lệch phiên bản OTA."
+    },
     {
       "build_id": "20261120_132542",
       "display_version": "v4.0.3 (Build 20-11-2026 13h25)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 12-11-2026 15h38)",
       "released_at": "2026-11-12 15:38:58",
       "changelog": "Xử lý triệt để lỗi treo hệ thống khi nhiều Chrome Muse chạm giới hạn ngày đồng thời: Nâng cấp nóng Hatch VM Daemon v2.7 bắt chuẩn 429 Daily Limit, khóa nguyên tử 0ms chống dội lặp task, tự động giải cứu Task mồ côi sang Chrome khỏe sau 2s (0 cần xóa tay), xoay vòng GPM sạch và bảo vệ cổng CDP khi GPU tải nặng."
-    },
-    {
-      "build_id": "20261111_023744",
-      "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
-      "released_at": "2026-11-11 02:37:44",
-      "changelog": "Gia cố chuẩn cơ khí chính xác Cụm gRPC HTTP/2 + Persistent CDP: Khóa kép chống Extension cũ F5/cướp task, bắt cổng 0ms & tự phục hồi Inspector.detached, khóa tuần tự WebSocket/_vm_submit_lock, trích Frame cuối Single-Pass trong RAM & ghim cứng Sticky Part 1->Part 2."
     }
   ]
 }
