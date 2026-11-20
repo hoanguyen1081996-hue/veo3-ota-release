@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261120_041851",
-  "display_version": "v4.0.3 (Build 20-11-2026 04h18)",
-  "released_at": "2026-11-20 04:18:51",
+  "build_id": "20261120_132542",
+  "display_version": "v4.0.3 (Build 20-11-2026 13h25)",
+  "released_at": "2026-11-20 13:25:42",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/49082c05d89f39baf1c63bbebf55544fdaad2685/veo3_patch.bin",
-  "patch_sha256": "b196d775c3f604902bf390c97fc2fa03b876c13672fb6e00867eb91cb8e76092",
-  "zip_sha256": "fb14553c26517023d9c299e158427a4b885accfcbadb80965daca52c014f78d9",
-  "patch_size_bytes": 886122,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/910acfd164b4835ed8949b006015f125216f2e39/veo3_patch.bin",
+  "patch_sha256": "65ee1f6893f4750b54230531d89877678184becb3e384e3bf485ae64b885e598",
+  "zip_sha256": "a16057ee65da1fe1589346c293d120f306e415342fa2884cbdeee9dc1e752452",
+  "patch_size_bytes": 886657,
   "files_count": 60,
-  "changelog": "OTA #41: Chống đơ chuột & tối ưu mượt Windows 24/7 (chặn quét lặp Socket Kernel GetExtendedTcpTable, mở Chrome GPM thu nhỏ sẵn không chiếm DWM GPU, tự cô lập tiến trình khỏi Core 0..3)",
+  "changelog": "OTA #42: Chặn tuyệt đối tự thu nhỏ/chiếm Chrome cá nhân ngoài tool, sửa lỗi báo giả chưa đăng nhập Muse AI khi đang tải React & mở bù tuần tự từng 1 Chrome chống nghẽn máy",
   "release_history": [
+    {
+      "build_id": "20261120_132542",
+      "display_version": "v4.0.3 (Build 20-11-2026 13h25)",
+      "released_at": "2026-11-20 13:25:42",
+      "changelog": "OTA #42: Chặn tuyệt đối tự thu nhỏ/chiếm Chrome cá nhân ngoài tool, sửa lỗi báo giả chưa đăng nhập Muse AI khi đang tải React & mở bù tuần tự từng 1 Chrome chống nghẽn máy"
+    },
     {
       "build_id": "20261120_041851",
       "display_version": "v4.0.3 (Build 20-11-2026 04h18)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 11-11-2026 02h37)",
       "released_at": "2026-11-11 02:37:44",
       "changelog": "Gia cố chuẩn cơ khí chính xác Cụm gRPC HTTP/2 + Persistent CDP: Khóa kép chống Extension cũ F5/cướp task, bắt cổng 0ms & tự phục hồi Inspector.detached, khóa tuần tự WebSocket/_vm_submit_lock, trích Frame cuối Single-Pass trong RAM & ghim cứng Sticky Part 1->Part 2."
-    },
-    {
-      "build_id": "20261111_011857",
-      "display_version": "v4.0.3 (Build 11-11-2026 01h18)",
-      "released_at": "2026-11-11 01:18:57",
-      "changelog": "Nâng cấp kiến trúc Cụm gRPC HTTP/2 Bi-directional Stream + Persistent CDP Push 0ms (0% Base64, tách rời GIL sang tiến trình Worker độc lập, tự động chạy ngay 100% tương thích OTA & bảo toàn 100% dữ liệu)."
     }
   ]
 }
