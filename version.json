@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261121_033221",
-  "display_version": "v4.0.3 (Build 21-11-2026 03h32)",
-  "released_at": "2026-11-21 03:32:21",
+  "build_id": "20261121_171223",
+  "display_version": "v4.0.3 (Build 21-11-2026 17h12)",
+  "released_at": "2026-11-21 17:12:23",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/377497855e08b8ef2a470ca33d9f3d31eb709936/veo3_patch.bin",
-  "patch_sha256": "28433c89b26cd78ad76deae0c3047939ef045ee3c6745b88d12af14caa7bfb9d",
-  "zip_sha256": "89f3b96cd06b6bc92be3a3c3a2b3c3126282bc7cb1d5b7feba7c2a61b443243c",
-  "patch_size_bytes": 896986,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/87bcd991cfabf1d059816da6ddafe29a124ac6a4/veo3_patch.bin",
+  "patch_sha256": "524448e242cad8a0475eaf04bd23a4ce615034bdb2ed297b8ef821b93611df86",
+  "zip_sha256": "34a55a1007a2fbd3c5d12c836a98402178f28976222407de53b179f8b0657c47",
+  "patch_size_bytes": 902628,
   "files_count": 60,
-  "changelog": "OTA #44: Khóa thời gian chờ tải Chrome 45 giây lấy Cookie/Token; chống mở trùng nhiều cửa sổ & nhiều tab Chrome (gỡ URL CLI, chặn gọi lặp /profiles/start, chốt điều hướng 1 lần/tab trắng, bảo vệ tab SSO Meta/Google và tự động giữ đúng 1 tab Muse/cửa sổ).",
+  "changelog": "OTA #45: Vá triệt để 3 lỗi khách báo sau cập nhật (1. Veo3 Cột 1 tự mở/khôi phục tab Flow cấp Token ya29, đồng bộ chu kỳ JIT 90s khi thiếu token & chặn đụng màn hình accounts.google.com; 2. Muse AI Cột 3 chống kẹt cửa sổ Không tên/newtab 8s, tách khóa khởi động GPM, sửa cache DevToolsActivePort -1/0, cách ly cổng gRPC khỏi Image Engine & siết chặt chống chiếm trình duyệt cá nhân/Cột 1-2; 3. Prompt Muse Spark Vision tự bật Chrome Cột 3, bù trường phụ 8D & chạy trực tiếp qua CDP React trên Confidential VM).",
   "release_history": [
+    {
+      "build_id": "20261121_171223",
+      "display_version": "v4.0.3 (Build 21-11-2026 17h12)",
+      "released_at": "2026-11-21 17:12:23",
+      "changelog": "OTA #45: Vá triệt để 3 lỗi khách báo sau cập nhật (1. Veo3 Cột 1 tự mở/khôi phục tab Flow cấp Token ya29, đồng bộ chu kỳ JIT 90s khi thiếu token & chặn đụng màn hình accounts.google.com; 2. Muse AI Cột 3 chống kẹt cửa sổ Không tên/newtab 8s, tách khóa khởi động GPM, sửa cache DevToolsActivePort -1/0, cách ly cổng gRPC khỏi Image Engine & siết chặt chống chiếm trình duyệt cá nhân/Cột 1-2; 3. Prompt Muse Spark Vision tự bật Chrome Cột 3, bù trường phụ 8D & chạy trực tiếp qua CDP React trên Confidential VM)."
+    },
     {
       "build_id": "20261121_033221",
       "display_version": "v4.0.3 (Build 21-11-2026 03h32)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 13-11-2026 17h58)",
       "released_at": "2026-11-13 17:58:12",
       "changelog": "Nâng cấp toàn diện NanoAPI V3 Async Poll Harvester, gia hạn OAuth2 ya29 ngầm, giải phóng triệt để 429/as29s CDN, sửa Cookie __Host-/IPv6 Gemini tạo ảnh MC và tối ưu SQLite Queue."
-    },
-    {
-      "build_id": "20261112_223232",
-      "display_version": "v4.0.3 (Build 12-11-2026 22h32)",
-      "released_at": "2026-11-12 22:32:32",
-      "changelog": "Xử lý triệt để 100% lỗi Muse dừng nạp việc ở 1/2 Ready: đồng bộ Disk-Truth SQLite, chặn khóa nhầm MUSE_REFUSED_PRODUCTS khi tắt NanoAI, tự chữa lành 2 tầng integrity_check_failed và bảo vệ cache existing_parts trên Worker gRPC"
     }
   ]
 }
