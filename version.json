@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261122_024017",
-  "display_version": "v4.0.3 (Build 22-11-2026 02h40)",
-  "released_at": "2026-11-22 02:40:17",
+  "build_id": "20261122_204711",
+  "display_version": "v4.0.3 (Build 22-11-2026 20h47)",
+  "released_at": "2026-11-22 20:47:11",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/fa5c2c3ab3a3669ece08f1b2b5ded2066d1a8890/veo3_patch.bin",
-  "patch_sha256": "df94b7dc6f2f671bc63ceeb5a623ac72ae833b9936987a43b9e8c388463944c7",
-  "zip_sha256": "64a06d54c0ec131072f039e2b1da575cb3f71314b1d60cc835527a0be226f467",
-  "patch_size_bytes": 908665,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/be14ffe58d8682f791c84f5f45be2e313a75b91f/veo3_patch.bin",
+  "patch_sha256": "40ed93333edd4f58d32b282d66ca822fc181bc9d6ca9b6e98c80e42384e379a0",
+  "zip_sha256": "892bd02b8123e16968a1648aa6f32e34a6618acb44352eb828e1aa5f8f2bb8cb",
+  "patch_size_bytes": 911268,
   "files_count": 60,
-  "changelog": "OTA #47: Fix occluded Chrome hydration freeze, fix premature 1-19 char Noise chat.history truncation & vm_state=UNKNOWN wake delay (3-4x faster 8D prompts), and enable passive 0-Chrome cookie harvest on gRPC Muse ports",
+  "changelog": "OTA #48: Boost customer 10-Chrome Muse prompt throughput 3-4x (always harvest all open Chrome windows into Noise pool, cut 6.7s /api/session?vm_state=live connect delay, overflow busy pool to idle open Chrome CDP tabs, and cache inspected product images)",
   "release_history": [
+    {
+      "build_id": "20261122_204711",
+      "display_version": "v4.0.3 (Build 22-11-2026 20h47)",
+      "released_at": "2026-11-22 20:47:11",
+      "changelog": "OTA #48: Boost customer 10-Chrome Muse prompt throughput 3-4x (always harvest all open Chrome windows into Noise pool, cut 6.7s /api/session?vm_state=live connect delay, overflow busy pool to idle open Chrome CDP tabs, and cache inspected product images)"
+    },
     {
       "build_id": "20261122_024017",
       "display_version": "v4.0.3 (Build 22-11-2026 02h40)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 14-11-2026 16h54)",
       "released_at": "2026-11-14 16:54:26",
       "changelog": "Đồng bộ bản vá OTA 1-Click, chống sập tab Out of Memory & sửa 4 lỗi Xuất Excel."
-    },
-    {
-      "build_id": "20261113_215450",
-      "display_version": "v4.0.3 (Build 13-11-2026 21h54)",
-      "released_at": "2026-11-13 21:54:50",
-      "changelog": "Fix triet de thu hoach video NanoAI V3 (as29s + flow.google.com OSID + ServiceLogin handshake), giam burst socket RemoteDisconnected, va sua nhan dien/chong tu dong tat Chrome Muse AI."
     }
   ]
 }
