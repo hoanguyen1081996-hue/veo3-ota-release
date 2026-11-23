@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261123_135741",
-  "display_version": "v4.0.3 (Build 23-11-2026 13h57)",
-  "released_at": "2026-11-23 13:57:41",
+  "build_id": "20261123_230640",
+  "display_version": "v4.0.3 (Build 23-11-2026 23h06)",
+  "released_at": "2026-11-23 23:06:40",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/d0fb91f6b0693df6523c789a66d16017b7bffeca/veo3_patch.bin",
-  "patch_sha256": "037aa10e13462be47caf03691d1ebb784bfb483b01e3f2b29c38f77579974fbc",
-  "zip_sha256": "9da1df555aadb6f65a50536d7df0d9175c690f313e66a4ddc5d71e2a0f30cddd",
-  "patch_size_bytes": 915108,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/3abd462f92b9916e4dfd49a98aa79c859cc6a86a/veo3_patch.bin",
+  "patch_sha256": "32edd28e6d6e5e70b545661153ec8e65fd338246e84eeac5effb9b4491e5dbf9",
+  "zip_sha256": "3000eabde77edf341b63ddc8af6711ed316ea4725239d995cf27ccf048fd7214",
+  "patch_size_bytes": 916406,
   "files_count": 60,
-  "changelog": "OTA #49: Vá lỗi tạo video Veo3 (đồng bộ khóa 30 ngày NANOAI_ACCOUNT_PACING với gpm_manager, chặn refresh token nền xóa cờ 403 veo3_unsupported, chống kẹt lặp Part 2 quá 240s, hiển thị badge Veo3 & nhãn engine thời gian thực) và tự phục hồi SQLite WAL disk I/O error khi khởi động sau OTA",
+  "changelog": "OTA #50: Khóa ngay ở lần 403 đầu tiên & chặn vòng lặp tự mở khóa Cột 1 (heartbeat/boot/save) chống đốt API; bảo vệ cooldown 429 không bị xóa nhầm bởi task cũ & tăng dần tải khi hồi phục; nhận diện chuẩn code='failed' (cắt Timeout Captcha tức thì 0s, tách lỗi 502/504 Create nanoai error không phạt acc Google); và sửa lỗi cắt số thập phân/ngoặc đơn trong Prompt",
   "release_history": [
+    {
+      "build_id": "20261123_230640",
+      "display_version": "v4.0.3 (Build 23-11-2026 23h06)",
+      "released_at": "2026-11-23 23:06:40",
+      "changelog": "OTA #50: Khóa ngay ở lần 403 đầu tiên & chặn vòng lặp tự mở khóa Cột 1 (heartbeat/boot/save) chống đốt API; bảo vệ cooldown 429 không bị xóa nhầm bởi task cũ & tăng dần tải khi hồi phục; nhận diện chuẩn code='failed' (cắt Timeout Captcha tức thì 0s, tách lỗi 502/504 Create nanoai error không phạt acc Google); và sửa lỗi cắt số thập phân/ngoặc đơn trong Prompt"
+    },
     {
       "build_id": "20261123_135741",
       "display_version": "v4.0.3 (Build 23-11-2026 13h57)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 15-11-2026 03h24)",
       "released_at": "2026-11-15 03:24:36",
       "changelog": "Tang toc x3 Veo3 NanoAI (cap ya29 bat dong bo 0s tre, Fast-Path as29s 0.3s, giai phong slot GPU tuc thi, giam cooldown 429) & sua triet de Muse AI nhan 100% Chrome (chong tu F5/tat nham Chrome dang tai, BFS React Fiber RPC, nhan dien moi cong Chrome GPM)."
-    },
-    {
-      "build_id": "20261114_173005",
-      "display_version": "v4.0.3 (Build 14-11-2026 17h30)",
-      "released_at": "2026-11-14 17:30:05",
-      "changelog": "fix(oauth,heartbeat): auto-mint ya29 tokens from open Chrome & cookies via curl_cffi"
     }
   ]
 }
