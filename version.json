@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261123_230640",
-  "display_version": "v4.0.3 (Build 23-11-2026 23h06)",
-  "released_at": "2026-11-23 23:06:40",
+  "build_id": "20261124_135626",
+  "display_version": "v4.0.3 (Build 24-11-2026 13h56)",
+  "released_at": "2026-11-24 13:56:26",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/3abd462f92b9916e4dfd49a98aa79c859cc6a86a/veo3_patch.bin",
-  "patch_sha256": "32edd28e6d6e5e70b545661153ec8e65fd338246e84eeac5effb9b4491e5dbf9",
-  "zip_sha256": "3000eabde77edf341b63ddc8af6711ed316ea4725239d995cf27ccf048fd7214",
-  "patch_size_bytes": 916406,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/ca059b4487119dc3835432dff55ce2a1b78328a8/veo3_patch.bin",
+  "patch_sha256": "c5b861546d50af030dc21c7bf991266e57fa94a8967f0e742529edea364832e1",
+  "zip_sha256": "b4d560fd9c026556bd45bd47007db214e92535ac88b5169710e561886b13a0cc",
+  "patch_size_bytes": 924347,
   "files_count": 60,
-  "changelog": "OTA #50: Khóa ngay ở lần 403 đầu tiên & chặn vòng lặp tự mở khóa Cột 1 (heartbeat/boot/save) chống đốt API; bảo vệ cooldown 429 không bị xóa nhầm bởi task cũ & tăng dần tải khi hồi phục; nhận diện chuẩn code='failed' (cắt Timeout Captcha tức thì 0s, tách lỗi 502/504 Create nanoai error không phạt acc Google); và sửa lỗi cắt số thập phân/ngoặc đơn trong Prompt",
+  "changelog": "OTA #51: Chạy đồng thời 4 tác vụ (Prompt Muse + Ảnh Muse + Video Muse + Video Veo3) không xung đột CDP/GIL, tăng tốc AES-GCM OpenSSL Ctypes cho Portable, ưu tiên JIT Cột 1 & tối ưu SQLite tốc độ cao",
   "release_history": [
+    {
+      "build_id": "20261124_135626",
+      "display_version": "v4.0.3 (Build 24-11-2026 13h56)",
+      "released_at": "2026-11-24 13:56:26",
+      "changelog": "OTA #51: Chạy đồng thời 4 tác vụ (Prompt Muse + Ảnh Muse + Video Muse + Video Veo3) không xung đột CDP/GIL, tăng tốc AES-GCM OpenSSL Ctypes cho Portable, ưu tiên JIT Cột 1 & tối ưu SQLite tốc độ cao"
+    },
     {
       "build_id": "20261123_230640",
       "display_version": "v4.0.3 (Build 23-11-2026 23h06)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
       "released_at": "2026-11-15 14:24:29",
       "changelog": "Sửa triệt để lỗi Muse đứng Chrome (gỡ bỏ kill renderer, chống tranh chấp WebSocket CDP giữa app.py & gRPC Worker, tự động fallback cổng gRPC), xóa cắt sớm 90s waiting in queue trên Veo3 (bảo toàn task đã pass Captcha), sửa lỗi Tầng 1 stream download & tối ưu tốc độ trên máy khách."
-    },
-    {
-      "build_id": "20261115_032436",
-      "display_version": "v4.0.3 (Build 15-11-2026 03h24)",
-      "released_at": "2026-11-15 03:24:36",
-      "changelog": "Tang toc x3 Veo3 NanoAI (cap ya29 bat dong bo 0s tre, Fast-Path as29s 0.3s, giai phong slot GPU tuc thi, giam cooldown 429) & sua triet de Muse AI nhan 100% Chrome (chong tu F5/tat nham Chrome dang tai, BFS React Fiber RPC, nhan dien moi cong Chrome GPM)."
     }
   ]
 }
