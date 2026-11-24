@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261124_181805",
-  "display_version": "v4.0.3 (Build 24-11-2026 18h18)",
-  "released_at": "2026-11-24 18:18:05",
+  "build_id": "20261125_034154",
+  "display_version": "v4.0.3 (Build 25-11-2026 03h41)",
+  "released_at": "2026-11-25 03:41:54",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/63c76f93cd0830a7555c19b55772deb104d03f68/veo3_patch.bin",
-  "patch_sha256": "6a6fa69a753ba4dc642fcddf4f6dba294a426b3c0ad03ae65e578009e70954e4",
-  "zip_sha256": "a9a4d9b543c274dadb2aeb971aa94e8674dc2126aae512b28e2547abd2ab25ce",
-  "patch_size_bytes": 930398,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/a8a8b9a04bb14c2d9181336c6956fb7114fcd656/veo3_patch.bin",
+  "patch_sha256": "0943174234fe1f99e977d579659c5109fe69a3a571db4fa3b047a1218e606f66",
+  "zip_sha256": "6c922a592b83b2c284ca9ad57ceb4f3d9571a610de4020e38ffa5bc15b5be774",
+  "patch_size_bytes": 932927,
   "files_count": 60,
-  "changelog": "OTA #52: Khac phuc triet de dung tool sau OTA & treo CDP_RPC_TIMEOUT/privsep khi chay song song 4 luong (Video Veo3, Anh Muse, Prompt Muse, Video Muse); toi uu quet OS & khoi dong nhanh, khoa tien trinh & DB muot nhe 24/7.",
+  "changelog": "OTA #53: Cô lập Chrome Muse Video khỏi Tạo Ảnh/Prompt Muse, nâng timeout Hatch VM 300-380s, chống bám worker lỗi & bù luồng Muse động",
   "release_history": [
+    {
+      "build_id": "20261125_034154",
+      "display_version": "v4.0.3 (Build 25-11-2026 03h41)",
+      "released_at": "2026-11-25 03:41:54",
+      "changelog": "OTA #53: Cô lập Chrome Muse Video khỏi Tạo Ảnh/Prompt Muse, nâng timeout Hatch VM 300-380s, chống bám worker lỗi & bù luồng Muse động"
+    },
     {
       "build_id": "20261124_181805",
       "display_version": "v4.0.3 (Build 24-11-2026 18h18)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
       "released_at": "2026-11-16 01:32:39",
       "changelog": "v4.0.3 Gate-3 Clean: Fix Prompt Segmentation & Vision 8D, Veo3 SLA <=60s/part, Muse Chrome Auto-Discovery + Zero-Leak Security Hardening"
-    },
-    {
-      "build_id": "20261116_005320",
-      "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
-      "released_at": "2026-11-16 00:53:20",
-      "changelog": "Ban cap nhat v4.0.3: Va triet de 3 loi khach hang (Prompt du 2 phan doan 8D Vision, Tang toc Veo3 SLA <=60s/part, Muse AI nhan moi Chrome GPM/Workstation/9222 + Sticky Part 1->2)"
     }
   ]
 }
