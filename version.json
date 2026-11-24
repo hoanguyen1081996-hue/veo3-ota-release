@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261124_135626",
-  "display_version": "v4.0.3 (Build 24-11-2026 13h56)",
-  "released_at": "2026-11-24 13:56:26",
+  "build_id": "20261124_181805",
+  "display_version": "v4.0.3 (Build 24-11-2026 18h18)",
+  "released_at": "2026-11-24 18:18:05",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/ca059b4487119dc3835432dff55ce2a1b78328a8/veo3_patch.bin",
-  "patch_sha256": "c5b861546d50af030dc21c7bf991266e57fa94a8967f0e742529edea364832e1",
-  "zip_sha256": "b4d560fd9c026556bd45bd47007db214e92535ac88b5169710e561886b13a0cc",
-  "patch_size_bytes": 924347,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/63c76f93cd0830a7555c19b55772deb104d03f68/veo3_patch.bin",
+  "patch_sha256": "6a6fa69a753ba4dc642fcddf4f6dba294a426b3c0ad03ae65e578009e70954e4",
+  "zip_sha256": "a9a4d9b543c274dadb2aeb971aa94e8674dc2126aae512b28e2547abd2ab25ce",
+  "patch_size_bytes": 930398,
   "files_count": 60,
-  "changelog": "OTA #51: Chạy đồng thời 4 tác vụ (Prompt Muse + Ảnh Muse + Video Muse + Video Veo3) không xung đột CDP/GIL, tăng tốc AES-GCM OpenSSL Ctypes cho Portable, ưu tiên JIT Cột 1 & tối ưu SQLite tốc độ cao",
+  "changelog": "OTA #52: Khac phuc triet de dung tool sau OTA & treo CDP_RPC_TIMEOUT/privsep khi chay song song 4 luong (Video Veo3, Anh Muse, Prompt Muse, Video Muse); toi uu quet OS & khoi dong nhanh, khoa tien trinh & DB muot nhe 24/7.",
   "release_history": [
+    {
+      "build_id": "20261124_181805",
+      "display_version": "v4.0.3 (Build 24-11-2026 18h18)",
+      "released_at": "2026-11-24 18:18:05",
+      "changelog": "OTA #52: Khac phuc triet de dung tool sau OTA & treo CDP_RPC_TIMEOUT/privsep khi chay song song 4 luong (Video Veo3, Anh Muse, Prompt Muse, Video Muse); toi uu quet OS & khoi dong nhanh, khoa tien trinh & DB muot nhe 24/7."
+    },
     {
       "build_id": "20261124_135626",
       "display_version": "v4.0.3 (Build 24-11-2026 13h56)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 16-11-2026 00h53)",
       "released_at": "2026-11-16 00:53:20",
       "changelog": "Ban cap nhat v4.0.3: Va triet de 3 loi khach hang (Prompt du 2 phan doan 8D Vision, Tang toc Veo3 SLA <=60s/part, Muse AI nhan moi Chrome GPM/Workstation/9222 + Sticky Part 1->2)"
-    },
-    {
-      "build_id": "20261115_142429",
-      "display_version": "v4.0.3 (Build 15-11-2026 14h24)",
-      "released_at": "2026-11-15 14:24:29",
-      "changelog": "Sửa triệt để lỗi Muse đứng Chrome (gỡ bỏ kill renderer, chống tranh chấp WebSocket CDP giữa app.py & gRPC Worker, tự động fallback cổng gRPC), xóa cắt sớm 90s waiting in queue trên Veo3 (bảo toàn task đã pass Captcha), sửa lỗi Tầng 1 stream download & tối ưu tốc độ trên máy khách."
     }
   ]
 }
