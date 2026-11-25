@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261125_034154",
-  "display_version": "v4.0.3 (Build 25-11-2026 03h41)",
-  "released_at": "2026-11-25 03:41:54",
+  "build_id": "20261125_114519",
+  "display_version": "v4.0.3 (Build 25-11-2026 11h45)",
+  "released_at": "2026-11-25 11:45:19",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/a8a8b9a04bb14c2d9181336c6956fb7114fcd656/veo3_patch.bin",
-  "patch_sha256": "0943174234fe1f99e977d579659c5109fe69a3a571db4fa3b047a1218e606f66",
-  "zip_sha256": "6c922a592b83b2c284ca9ad57ceb4f3d9571a610de4020e38ffa5bc15b5be774",
-  "patch_size_bytes": 932927,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/b796249ad4ed2a7011542f7b933bf33729e6532c/veo3_patch.bin",
+  "patch_sha256": "7604cc3394c3958fb29ba952f30cbfdcb466bea8224cbda5c6fec22c73a56cbd",
+  "zip_sha256": "edf3c19354c79ddd12aaf42158cc55dc3976c3a7263c568bdb1b3ab4f10ed6d9",
+  "patch_size_bytes": 943416,
   "files_count": 60,
-  "changelog": "OTA #53: Cô lập Chrome Muse Video khỏi Tạo Ảnh/Prompt Muse, nâng timeout Hatch VM 300-380s, chống bám worker lỗi & bù luồng Muse động",
+  "changelog": "OTA #54: Tu dong lay lai cookie Google/Flow va cuu video da render (0 Credit) khi NanoAI thieu token AT, siet SSRF/header isolation, fix sqlite3 fallback va lock anti-stampede",
   "release_history": [
+    {
+      "build_id": "20261125_114519",
+      "display_version": "v4.0.3 (Build 25-11-2026 11h45)",
+      "released_at": "2026-11-25 11:45:19",
+      "changelog": "OTA #54: Tu dong lay lai cookie Google/Flow va cuu video da render (0 Credit) khi NanoAI thieu token AT, siet SSRF/header isolation, fix sqlite3 fallback va lock anti-stampede"
+    },
     {
       "build_id": "20261125_034154",
       "display_version": "v4.0.3 (Build 25-11-2026 03h41)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 16-11-2026 13h44)",
       "released_at": "2026-11-16 13:44:12",
       "changelog": "Vá dứt điểm kẹt Render Veo3: chống vòng lặp 429 Google Labs (giãn cách lũy tiến & trần 5 luồng/nick), cắt sớm job treo [40+] & hàng đợi kẹt 120s, diệt lặp 401 hồi sinh token cũ và chống trễ /api/state."
-    },
-    {
-      "build_id": "20261116_013239",
-      "display_version": "v4.0.3 (Build 16-11-2026 01h32)",
-      "released_at": "2026-11-16 01:32:39",
-      "changelog": "v4.0.3 Gate-3 Clean: Fix Prompt Segmentation & Vision 8D, Veo3 SLA <=60s/part, Muse Chrome Auto-Discovery + Zero-Leak Security Hardening"
     }
   ]
 }
