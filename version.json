@@ -1,17 +1,23 @@
 {
   "version": "v4.0.3",
-  "build_id": "20261126_132124",
-  "display_version": "v4.0.3 (Build 26-11-2026 13h21)",
-  "released_at": "2026-11-26 13:21:24",
+  "build_id": "20261126_164231",
+  "display_version": "v4.0.3 (Build 26-11-2026 16h42)",
+  "released_at": "2026-11-26 16:42:31",
   "is_cumulative": true,
   "force_update": false,
-  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/da0b6c2b5bddfd180393d8d3ecbd1b903b82f5d2/veo3_patch.bin",
-  "patch_sha256": "59cae1f12c8874758be149f67a3f4709f5d220832bb028968fcc0a7a7eee4731",
-  "zip_sha256": "c0e90464fb727c17e82348c10347e7a05d47ef4da61b17c8218def98e90a0f5f",
-  "patch_size_bytes": 953300,
+  "patch_url": "https://raw.githubusercontent.com/hoanguyen1081996-hue/veo3-ota-release/8a595d0c61471a4342ae84770cb7ac606fad346b/veo3_patch.bin",
+  "patch_sha256": "2c5dda435b3951bbda90af6469bb923569e09d22f53ea0e21def3e7b09d94b9c",
+  "zip_sha256": "290a68a095b1a96b42bd5709460318b38829d366326718ffdbca53e8de433aba",
+  "patch_size_bytes": 960450,
   "files_count": 60,
-  "changelog": "OTA #55: Fix PUBLIC_ERROR_SEXUAL_UPLOAD infinite loop, add 2-strike image_2/crop recovery, Muse/Gemini fallback parity, SSRF/DoS hardening, 24h quarantine & apparel modesty guards",
+  "changelog": "OTA #56: Fix Muse Noise transport queue overflow, Hatch daemon prewarm premature wipe, and broken-VM warmup cooldown rotation",
   "release_history": [
+    {
+      "build_id": "20261126_164231",
+      "display_version": "v4.0.3 (Build 26-11-2026 16h42)",
+      "released_at": "2026-11-26 16:42:31",
+      "changelog": "OTA #56: Fix Muse Noise transport queue overflow, Hatch daemon prewarm premature wipe, and broken-VM warmup cooldown rotation"
+    },
     {
       "build_id": "20261126_132124",
       "display_version": "v4.0.3 (Build 26-11-2026 13h21)",
@@ -155,12 +161,6 @@
       "display_version": "v4.0.3 (Build 16-11-2026 22h27)",
       "released_at": "2026-11-16 22:27:11",
       "changelog": "Tối ưu toàn diện tốc độ Muse AI 10 Chrome (~300+ video/giờ): Tự động xoay vòng Chrome văng đăng nhập kẹt trang chủ, mở rộng hàng chờ chống treo xếp lốt, cắt Frame 8 luồng song song + nhả slot 0ms nối Part, và ghép Hybrid NVENC + CPU đa luồng chống nghẽn VRAM"
-    },
-    {
-      "build_id": "20261116_150118",
-      "display_version": "v4.0.3 (Build 16-11-2026 15h01)",
-      "released_at": "2026-11-16 15:01:18",
-      "changelog": "Tối ưu tốc độ Veo3 & chống cắt nhầm hàng đợi NanoAI: phân biệt chuẩn pre-GPU step 1/waiting-in-queue với Google GPU [N], gỡ trễ 10-12s GPM cũ xuống 2s 0-Chrome, nối tiếp Part 1->2 tức thì, khóa 4 luồng/nick và giảm 65% tải poll."
     }
   ]
 }
